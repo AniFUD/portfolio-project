@@ -108,10 +108,14 @@ export default function Home() {
           {/* Card 1: The Buffalo Project */}
           <Link to="/selected-work/assets" className="work-grid-card image-card">
             <div className="card-img-container">
-              <img
-                src="/buffalo_cover.png"
-                alt="The Buffalo Project"
+              <video
+                src="/buffalo_cover.webm"
                 className="card-img"
+                autoPlay
+                loop
+                muted
+                playsInline
+                style={{ display: 'block', width: '100%', height: '100%', objectFit: 'cover' }}
               />
             </div>
             <div className="card-info">
