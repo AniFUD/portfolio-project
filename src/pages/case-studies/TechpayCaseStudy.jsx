@@ -229,6 +229,30 @@ export default function TechpayCaseStudy() {
                 <li><strong>Bank Transfer</strong>: Displays dynamic virtual account coordinates (Bank Name, Account Number, Exact Amount) with an active copy button.</li>
               </ul>
 
+              {/* Wallet Checkout Flow Mockups */}
+              <div className="five-column-grid">
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                  <img src="/Techpay_wallet_invoice.png" alt="Wallet Invoice Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
+                  <div style={{ fontSize: '10px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.5px' }}>1. Bill Invoice</div>
+                </div>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                  <img src="/Techpay_wallet_method.png" alt="Select Payment Method Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
+                  <div style={{ fontSize: '10px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.5px' }}>2. Select Payment</div>
+                </div>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                  <img src="/Techpay_wallet_pay.png" alt="Verify Wallet Payment Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
+                  <div style={{ fontSize: '10px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.5px' }}>3. Verify Details</div>
+                </div>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                  <img src="/Techpay_wallet_pin.png" alt="Confirm PIN Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
+                  <div style={{ fontSize: '10px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.5px' }}>4. Confirm PIN</div>
+                </div>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                  <img src="/Techpay_wallet_success.png" alt="Wallet Payment Success Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
+                  <div style={{ fontSize: '10px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.5px' }}>5. Success Screen</div>
+                </div>
+              </div>
+
               <h4>4. High-Trust Dispute Center</h4>
               <p>
                 Reconciliation is critical in fintech. I designed a clear dispute workspace where users can select dispute categories directly from transaction history logs, describe their issues, and upload image receipts. This automatically generates a structured support ticket routed to the administration panel, keeping users informed of resolution status.
@@ -249,6 +273,10 @@ export default function TechpayCaseStudy() {
                 </li>
                 <li>
                   <strong>Biometric Prompts</strong>: Designed setting panels and overlays for FaceID and fingerprint registration. These verify credentials during log in and authorize payment transactions securely.
+                  <div style={{ maxWidth: '260px', margin: '16px 0 24px 0', border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                    <img src="/Techpay_biometric_login.png" alt="Biometric Prompt Verification Mockup" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
+                    <div style={{ fontSize: '10px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.5px' }}>FaceID Biometric Login Prompt</div>
+                  </div>
                 </li>
                 <li>
                   <strong>Security Masking</strong>: Masked sensitive data layers such as BVN/NIN codes and transaction PIN entry fields to protect user privacy.
