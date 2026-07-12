@@ -109,7 +109,7 @@ export default function Home() {
           <Link to="/selected-work/assets" className="work-grid-card image-card">
             <div className="card-img-container">
               <img
-                src="https://framerusercontent.com/images/tslQcqOjPgCskRajMpLsGlTk.png?width=1000"
+                src="/buffalo_cover.png"
                 alt="The Buffalo Project"
                 className="card-img"
               />
