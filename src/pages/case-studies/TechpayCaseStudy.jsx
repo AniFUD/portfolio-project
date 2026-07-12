@@ -29,7 +29,7 @@ export default function TechpayCaseStudy() {
       {/* Case Study Header */}
       <header className="case-study-title-block">
         <span className="case-study-eyebrow">Fintech & Government Payments</span>
-        <h1 className="case-study-title">Techpay: Designing a frictionless mobile billing portal for public utilities and digital treasury</h1>
+        <h1 className="case-study-title">Techpay: Designing a frictionless mobile billing portal for Public Utilities and Government Bill Payments</h1>
       </header>
 
       {/* Hero Image */}
