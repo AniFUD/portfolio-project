@@ -16,14 +16,57 @@ export default function MoniehubCaseStudy() {
           </svg>
           Back
         </Link>
-        <button className="case-study-view-project-btn" onClick={() => setIsModalOpen(true)}>
-          View Figma Designs
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ marginLeft: '4px' }}>
-            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-            <polyline points="15 3 21 3 21 9"></polyline>
-            <line x1="10" y1="14" x2="21" y2="3"></line>
-          </svg>
-        </button>
+        <div className="tooltip-container" style={{ position: 'relative', display: 'inline-block' }}>
+          <button 
+            className="case-study-view-project-btn" 
+            style={{ 
+              background: 'rgba(245, 158, 11, 0.1)', 
+              borderColor: 'rgba(245, 158, 11, 0.3)', 
+              color: '#F59E0B',
+              cursor: 'help'
+            }}
+          >
+            Under Development
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ marginLeft: '6px' }}>
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="8" x2="12" y2="12"></line>
+              <line x1="12" y1="16" x2="12.01" y2="16"></line>
+            </svg>
+          </button>
+          <div 
+            className="tooltip-content" 
+            style={{
+              position: 'absolute',
+              bottom: '125%',
+              left: '50%',
+              transform: 'translateX(-50%) translateY(5px)',
+              background: 'var(--bg-secondary)',
+              color: 'var(--text-secondary)',
+              padding: '8px 12px',
+              borderRadius: '6px',
+              fontSize: '11px',
+              lineHeight: '1.4',
+              whiteSpace: 'normal',
+              width: '220px',
+              textAlign: 'center',
+              boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
+              border: '1px solid var(--border-color)',
+              zIndex: 100,
+              pointerEvents: 'none',
+              opacity: 0,
+              transition: 'opacity 0.2s ease, transform 0.2s ease'
+            }}
+          >
+            This project is currently active and under development. Figma design links are restricted.
+          </div>
+          <style>{`
+            .tooltip-container:hover .tooltip-content {
+              opacity: 1 !important;
+              transform: translate(-50%, -4px) !important;
+              pointer-events: auto !important;
+            }
+          `}</style>
+        </div>
       </div>
 
       {/* Case Study Header */}
