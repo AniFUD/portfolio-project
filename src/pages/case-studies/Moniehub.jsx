@@ -20,9 +20,10 @@ export default function MoniehubCaseStudy() {
           <button 
             className="case-study-view-project-btn" 
             style={{ 
-              background: 'rgba(245, 158, 11, 0.1)', 
-              borderColor: 'rgba(245, 158, 11, 0.3)', 
-              color: '#F59E0B',
+              background: 'rgba(217, 119, 6, 0.12)', 
+              borderColor: 'rgba(217, 119, 6, 0.4)', 
+              color: '#D97706',
+              fontWeight: '600',
               cursor: 'help'
             }}
           >
@@ -37,9 +38,9 @@ export default function MoniehubCaseStudy() {
             className="tooltip-content" 
             style={{
               position: 'absolute',
-              bottom: '125%',
+              top: '125%',
               left: '50%',
-              transform: 'translateX(-50%) translateY(5px)',
+              transform: 'translateX(-50%) translateY(-5px)',
               background: 'var(--bg-secondary)',
               color: 'var(--text-secondary)',
               padding: '8px 12px',
@@ -62,7 +63,7 @@ export default function MoniehubCaseStudy() {
           <style>{`
             .tooltip-container:hover .tooltip-content {
               opacity: 1 !important;
-              transform: translate(-50%, -4px) !important;
+              transform: translate(-50%, 4px) !important;
               pointer-events: auto !important;
             }
           `}</style>
