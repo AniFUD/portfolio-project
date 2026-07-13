@@ -314,9 +314,9 @@ export default function TechpayCaseStudy() {
           <span className="case-study-nav-lbl">Previous Project</span>
           <span className="case-study-nav-title">XND V2.0</span>
         </Link>
-        <Link to="/selected-work/my-design-portfolio" className="case-study-nav-btn next">
+        <Link to="/selected-work/moniehub" className="case-study-nav-btn next">
           <span className="case-study-nav-lbl">Next Project</span>
-          <span className="case-study-nav-title">My Design Portfolio</span>
+          <span className="case-study-nav-title">Moniehub</span>
         </Link>
       </footer>
 
