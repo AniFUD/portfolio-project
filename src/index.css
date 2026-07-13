@@ -1006,50 +1006,67 @@ body {
 
 /* Bottom Case Study Navigation */
 .case-study-nav {
-  margin-top: 48px;
+  margin-top: 64px;
   padding-top: 32px;
   border-top: 1px solid var(--border-color);
   display: flex;
-  justify-content: space-between;
+  gap: 16px;
 }
 
 .case-study-nav-btn {
+  flex: 1;
   display: flex;
-  flex-direction: column;
+  align-items: center;
   text-decoration: none;
-  color: inherit;
-  max-width: 45%;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 16px 20px;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.case-study-nav-btn:hover {
+  background: var(--border-color);
+  border-color: var(--text-tertiary);
 }
 
 .case-study-nav-btn.prev {
-  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .case-study-nav-btn.next {
-  align-items: flex-end;
-  text-align: right;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
-.case-study-nav-lbl {
-  font-family: var(--font-sans);
-  font-size: 12px;
-  font-weight: 600;
-  text-transform: uppercase;
+.case-study-nav-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--text-tertiary);
-  margin-bottom: 4px;
-  letter-spacing: 0.5px;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.case-study-nav-btn.prev:hover .case-study-nav-arrow {
+  transform: translateX(-4px);
+  color: var(--text-primary);
+}
+
+.case-study-nav-btn.next:hover .case-study-nav-arrow {
+  transform: translateX(4px);
+  color: var(--text-primary);
 }
 
 .case-study-nav-title {
   font-family: var(--font-sans);
-  font-size: 16px;
-  font-weight: 600;
-  color: var(--text-primary);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-secondary);
   transition: color 0.2s ease;
 }
 
 .case-study-nav-btn:hover .case-study-nav-title {
-  color: var(--accent);
+  color: var(--text-primary);
 }
 
 /* Animation utilities */
