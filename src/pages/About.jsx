@@ -47,11 +47,11 @@ export default function About() {
       <section className={`about-collage ${activeMedia ? 'lightbox-active' : ''}`}>
         <div
           className="about-collage-img-box large"
-          onClick={() => setActiveMedia({ type: 'video', src: '/about-first.mov' })}
+          onClick={() => setActiveMedia({ type: 'video', src: '/Recreation.mp4' })}
         >
           <video
             ref={backgroundVideoRef}
-            src="/about-first.mov"
+            src="/Recreation.mp4"
             className="about-collage-img"
             autoPlay
             loop
