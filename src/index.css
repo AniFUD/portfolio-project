@@ -1007,6 +1007,8 @@ body {
 /* Bottom Case Study Navigation */
 .case-study-nav {
   margin-top: 64px;
+  padding-top: 32px;
+  border-top: 1px solid var(--border-color);
   display: flex;
   margin-bottom: 24px;
   gap: 16px;
@@ -1021,15 +1023,12 @@ body {
   border: 1px solid var(--border-color);
   border-radius: 8px;
   padding: 16px 20px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
-  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s, box-shadow 0.3s ease;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .case-study-nav-btn:hover {
-  background: var(--bg-secondary);
-  border-color: var(--border-color);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
-  transform: translateY(-2px);
+  background: var(--border-color);
+  border-color: var(--text-tertiary);
 }
 
 .case-study-nav-btn.prev {
@@ -1056,7 +1055,7 @@ body {
 
 .case-study-nav-btn.next:hover .case-study-nav-arrow {
   transform: translateX(4px);
-  color: var(--accent);
+  color: var(--text-primary);
 }
 
 .case-study-nav-title {
