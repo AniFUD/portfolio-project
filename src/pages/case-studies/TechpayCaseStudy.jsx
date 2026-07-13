@@ -35,7 +35,7 @@ export default function TechpayCaseStudy() {
       {/* Hero Image */}
       <div className="case-study-hero-img-box" style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)' }}>
         <img
-          src="/Techpay.png"
+          src="/techpay_cover.png"
           alt="Techpay Mobile Application Mockup"
           className="case-study-hero-img"
         />
