@@ -498,9 +498,9 @@ export default function MyDesignPortfolio() {
 
       {/* Bottom Navigation */}
       <footer className="case-study-nav">
-        <Link to="/selected-work/techpay" className="case-study-nav-btn prev">
+        <Link to="/selected-work/moniehub" className="case-study-nav-btn prev">
           <span className="case-study-nav-lbl">Previous Project</span>
-          <span className="case-study-nav-title">Techpay</span>
+          <span className="case-study-nav-title">Moniehub</span>
         </Link>
         <Link to="/selected-work/assets" className="case-study-nav-btn next">
           <span className="case-study-nav-lbl">Next Project</span>
