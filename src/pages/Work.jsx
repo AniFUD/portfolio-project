@@ -5,21 +5,12 @@ export default function Work() {
   const caseStudies = [
     {
       id: 'assets',
-      title: 'The Buffalo Project — Assets',
+      title: 'The Buffalo Project',
       year: '2026',
-      category: 'ABC x Trustpointly — 2024',
-      description: 'A flexible solution for real-time asset tracking and lifecycle management.',
-      image: 'https://framerusercontent.com/images/W87NFVxe7JuGBfW0n781qpEcXSw.png?width=1000',
+      category: 'ABC x Trustpointly — 2026',
+      description: "Custom enterprise platform for ABC x Trustpointly's business operations.",
+      image: '/buffalo_cover.webm',
       path: '/selected-work/assets'
-    },
-    {
-      id: 'ton-kilometres',
-      title: 'The Buffalo Project — Ton-Kilometres',
-      year: '2026',
-      category: 'ABC x Trustpointly — 2025',
-      description: 'Logistics performance dashboard automating composite metrics.',
-      image: 'https://framerusercontent.com/images/h2kdU9yBI0CIsaYeWdJNuIqRLwQ.png?width=1000',
-      path: '/selected-work/ton-kilometres'
     },
     {
       id: 'lagos-revenue-portal',
