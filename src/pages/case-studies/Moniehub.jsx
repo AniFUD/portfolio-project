@@ -194,6 +194,10 @@ export default function MoniehubCaseStudy() {
                   <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Summary</div>
                 </div>
                 <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                  <img src="/figma-screenshots/vas_pin.png" alt="Confirm PIN Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
+                  <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Confirm PIN</div>
+                </div>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
                   <img src="/figma-screenshots/vas_happy.png" alt="Happy Success Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
                   <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Settle Bill Success</div>
                 </div>
