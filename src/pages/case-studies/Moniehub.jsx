@@ -17,11 +17,11 @@ export default function MoniehubCaseStudy() {
           Back
         </Link>
         <div className="tooltip-container" style={{ position: 'relative', display: 'inline-block' }}>
-          <button 
-            className="case-study-view-project-btn" 
-            style={{ 
-              background: 'rgba(217, 119, 6, 0.12)', 
-              borderColor: 'rgba(217, 119, 6, 0.4)', 
+          <button
+            className="case-study-view-project-btn"
+            style={{
+              background: 'rgba(217, 119, 6, 0.12)',
+              borderColor: 'rgba(217, 119, 6, 0.4)',
               color: '#D97706',
               fontWeight: '600',
               cursor: 'help'
@@ -34,8 +34,8 @@ export default function MoniehubCaseStudy() {
               <line x1="12" y1="16" x2="12.01" y2="16"></line>
             </svg>
           </button>
-          <div 
-            className="tooltip-content" 
+          <div
+            className="tooltip-content"
             style={{
               position: 'absolute',
               top: '125%',
@@ -45,7 +45,7 @@ export default function MoniehubCaseStudy() {
               color: 'var(--text-secondary)',
               padding: '8px 12px',
               borderRadius: '6px',
-              fontSize: '11px',
+              fontSize: '12px',
               lineHeight: '1.4',
               whiteSpace: 'normal',
               width: '220px',
