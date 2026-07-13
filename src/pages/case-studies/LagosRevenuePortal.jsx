@@ -217,9 +217,9 @@ export default function LagosRevenuePortal() {
 
       {/* Bottom Navigation */}
       <footer className="case-study-nav">
-        <Link to="/selected-work/ton-kilometres" className="case-study-nav-btn prev">
+        <Link to="/selected-work/assets" className="case-study-nav-btn prev">
           <span className="case-study-nav-lbl">Previous Project</span>
-          <span className="case-study-nav-title">The Buffalo Project - Ton-Kilometres</span>
+          <span className="case-study-nav-title">The Buffalo Project</span>
         </Link>
         <Link to="/selected-work/xnd" className="case-study-nav-btn next">
           <span className="case-study-nav-lbl">Next Project</span>
