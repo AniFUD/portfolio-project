@@ -54,7 +54,7 @@ export default function Work() {
       year: '2025',
       category: 'Fintech & Multi-Asset Cards — 2025',
       description: 'A unified digital finance wallet bridging fiat accounts, crypto assets, and virtual card issuance.',
-      image: '/moniehub_hero.png',
+      image: '/moniehub_cover.png',
       path: '/selected-work/moniehub'
     },
     {
