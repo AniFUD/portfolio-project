@@ -181,7 +181,7 @@ export default function MoniehubCaseStudy() {
 
               {/* VAS section mockup grid */}
               <div className="stepper-mockup-grid" style={{ gridTemplateColumns: 'repeat(5, 1fr)', gap: '10px', margin: '24px 0' }}>
-                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '12px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
                   <img src="/figma-screenshots/vas_giftcards.png" alt="Giftcards Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
                   <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Select Giftcard</div>
                 </div>
