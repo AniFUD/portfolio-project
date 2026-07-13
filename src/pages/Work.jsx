@@ -70,7 +70,17 @@ export default function Work() {
         {caseStudies.map((study) => (
           <Link key={study.id} to={study.path} className="work-page-card">
             <div className="work-page-card-image-container">
-              {study.id === 'lagos-revenue-portal' ? (
+              {study.id === 'assets' ? (
+                <video
+                  src="/buffalo_cover.webm"
+                  className="work-page-card-image"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  style={{ display: 'block', width: '100%', height: '100%', objectFit: 'cover' }}
+                />
+              ) : study.id === 'lagos-revenue-portal' ? (
                 <video
                   src="/LRP Thumbnail.webm"
                   className="work-page-card-image"
