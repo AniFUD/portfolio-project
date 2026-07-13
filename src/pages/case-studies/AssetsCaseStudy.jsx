@@ -70,6 +70,9 @@ export default function AssetsCaseStudy() {
               <li style={{ marginTop: '8px' }}><strong>Moshood Ayoyinka</strong><br /><span style={{ color: 'var(--text-tertiary)' }}>Business Analyst</span></li>
               <li style={{ marginTop: '8px' }}><strong>Simon Singlad</strong><br /><span style={{ color: 'var(--text-tertiary)' }}>Mobile Developer</span></li>
               <li style={{ marginTop: '8px' }}><strong>Tomi Agboola</strong><br /><span style={{ color: 'var(--text-tertiary)' }}>Cloud Infrastructure Engineer</span></li>
+              <li style={{ marginTop: '8px' }}><strong>Agbaru-Ihouma Favour</strong><br /><span style={{ color: 'var(--text-tertiary)' }}>Business Analyst</span></li>
+              <li style={{ marginTop: '8px' }}><strong>Maria Ayenuro</strong><br /><span style={{ color: 'var(--text-tertiary)' }}>Product Delivery Manager</span></li>
+              <li style={{ marginTop: '8px' }}><strong>Joseph Fajemisin</strong><br /><span style={{ color: 'var(--text-tertiary)' }}>QA Engineer</span></li>
             </ul>
           </div>
         </aside>
