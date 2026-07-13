@@ -50,6 +50,7 @@ export default function MoniehubCaseStudy() {
               whiteSpace: 'normal',
               width: '250px',
               textAlign: 'center',
+              boxShadow: '0 10px 15px -3px rgba(160, 160, 160, 0.3), 0 4px 6px -2px rgba(93, 93, 93, 0.05)',
               border: '1px solid var(--border-color)',
               zIndex: 100,
               pointerEvents: 'none',
