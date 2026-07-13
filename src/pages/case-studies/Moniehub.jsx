@@ -353,6 +353,10 @@ export default function MoniehubCaseStudy() {
                 </div>
                 <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
                   <img src="/figma-screenshots/compliance_2fa.png" alt="2FA Verification Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
+                  <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>2FA Settings</div>
+                </div>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                  <img src="/figma-screenshots/compliance_auth_2fa.png" alt="Authenticator 2FA Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
                   <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>2FA Verification</div>
                 </div>
               </div>
