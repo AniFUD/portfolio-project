@@ -1007,8 +1007,6 @@ body {
 /* Bottom Case Study Navigation */
 .case-study-nav {
   margin-top: 64px;
-  padding-top: 32px;
-  border-top: 1px solid var(--border-color);
   display: flex;
   gap: 16px;
 }
