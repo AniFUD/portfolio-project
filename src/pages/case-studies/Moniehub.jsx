@@ -28,7 +28,7 @@ export default function MoniehubCaseStudy() {
 
       {/* Case Study Header */}
       <header className="case-study-title-block">
-        <span className="case-study-eyebrow" style={{ color: '#10B981' }}>Fintech & Multi-Asset Card Rails</span>
+        <span className="case-study-eyebrow" style={{ color: '#7e7e7eff' }}>Fintech & Multi-Asset Card Rails</span>
         <h1 className="case-study-title">Moniehub: Architecting a unified fiat-crypto transaction dashboard and virtual card manager</h1>
       </header>
 
@@ -92,7 +92,7 @@ export default function MoniehubCaseStudy() {
             <h3 className="case-study-section-title">The Challenge</h3>
             <div className="case-study-body">
               <p>
-                Bridging NGN fiat with volatile crypto wallets (BTC, USDT, USDC) creates high user anxiety. Users are often intimidated by technical exchange rates, complex KYC compliance forms, and virtual card settings that typically feel like a black box. 
+                Bridging NGN fiat with volatile crypto wallets (BTC, USDT, USDC) creates high user anxiety. Users are often intimidated by technical exchange rates, complex KYC compliance forms, and virtual card settings that typically feel like a black box.
               </p>
               <p>
                 My goals were to:
@@ -115,7 +115,7 @@ export default function MoniehubCaseStudy() {
           <section className="case-study-section">
             <h3 className="case-study-section-title">My Design Process & Solutions</h3>
             <div className="case-study-body">
-              
+
               <h4>1. Unified Multi-Asset Landing Screen</h4>
               <p>
                 I designed the landing dashboard to give a clean overview of both NGN fiat and Crypto balances (BTC, USDT). Quick action buttons ("Deposit", "Withdraw", "Trade") sit right above a utility billing list, eliminating deep menu exploration. Recent transactions are presented with clear status badges.
