@@ -1051,12 +1051,12 @@ body {
 
 .case-study-nav-btn.prev:hover .case-study-nav-arrow {
   transform: translateX(-4px);
-  color: var(--text-primary);
+  color: var(--accent);
 }
 
 .case-study-nav-btn.next:hover .case-study-nav-arrow {
   transform: translateX(4px);
-  color: var(--text-primary);
+  color: var(--accent);
 }
 
 .case-study-nav-title {
