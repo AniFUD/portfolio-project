@@ -151,14 +151,26 @@ export default function MoniehubCaseStudy() {
               </p>
 
               {/* Trade mockup grid */}
-              <div className="stepper-mockup-grid" style={{ gridTemplateColumns: 'repeat(2, 1fr)', gap: '16px', margin: '24px 0' }}>
-                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '6px', background: 'var(--bg-secondary)' }}>
-                  <img src="/figma-screenshots/moniehub_trade_figma.png" alt="Figma Trade Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
-                  <div style={{ fontSize: '10px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase' }}>Figma Trade Interface</div>
+              <div className="stepper-mockup-grid" style={{ gridTemplateColumns: 'repeat(5, 1fr)', gap: '12px', margin: '24px 0' }}>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                  <img src="/figma-screenshots/swap_trade.png" alt="Select Asset Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
+                  <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Select Asset</div>
                 </div>
-                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '6px', background: 'var(--bg-secondary)' }}>
-                  <img src="/moniehub_trade_crypto.png" alt="Moniehub Trade Success Mockup" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
-                  <div style={{ fontSize: '10px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase' }}>Conversion Success & Details Receipt</div>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                  <img src="/figma-screenshots/swap_trade_1.png" alt="Enter Amount Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
+                  <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Enter Amount</div>
+                </div>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                  <img src="/figma-screenshots/swap_trade_2.png" alt="Preview Rate Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
+                  <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Preview Rate</div>
+                </div>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                  <img src="/figma-screenshots/swap_pin.png" alt="Confirm PIN Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
+                  <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Confirm PIN</div>
+                </div>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                  <img src="/figma-screenshots/swap_success.png" alt="Success Receipt Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
+                  <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Success Receipt</div>
                 </div>
               </div>
 
