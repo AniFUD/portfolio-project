@@ -504,7 +504,7 @@ export default function MyDesignPortfolio() {
         </Link>
         <Link to="/selected-work/assets" className="case-study-nav-btn next">
           <span className="case-study-nav-lbl">Next Project</span>
-          <span className="case-study-nav-title">The Buffalo Project - Assets</span>
+          <span className="case-study-nav-title">The Buffalo Project</span>
         </Link>
       </footer>
 
