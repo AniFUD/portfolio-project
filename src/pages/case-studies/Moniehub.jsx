@@ -145,7 +145,45 @@ export default function MoniehubCaseStudy() {
                 </div>
               </div>
 
-              <h4>2. Self-Service Virtual Card Orchestration</h4>
+              <h4>2. High-Trust Crypto Trade Swapping</h4>
+              <p>
+                Designing the Trade swap panel required extreme clarity. I created a clean split input (BTC/USDT to NGN) with prominent rate calculators, clear percentage selection buttons (25%, 50%, Max), and progress status cards that provide reassurance during block validations.
+              </p>
+
+              {/* Trade mockup grid */}
+              <div className="stepper-mockup-grid" style={{ gridTemplateColumns: 'repeat(2, 1fr)', gap: '16px', margin: '24px 0' }}>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '6px', background: 'var(--bg-secondary)' }}>
+                  <img src="/figma-screenshots/moniehub_trade_figma.png" alt="Figma Trade Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
+                  <div style={{ fontSize: '10px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase' }}>Figma Trade Interface</div>
+                </div>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '6px', background: 'var(--bg-secondary)' }}>
+                  <img src="/moniehub_trade_crypto.png" alt="Moniehub Trade Success Mockup" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
+                  <div style={{ fontSize: '10px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase' }}>Conversion Success & Details Receipt</div>
+                </div>
+              </div>
+
+              <h4>3. Value-Added Services & Bill Settlements</h4>
+              <p>
+                To enable seamless day-to-day payments, I designed a direct utility billing section on the main landing screen. Users can instantly buy Airtime or settle subscriptions (DSTV, GOTV, EKEDC) in less than three taps, supported by immediate transaction success logs.
+              </p>
+
+              {/* VAS section mockup grid */}
+              <div className="stepper-mockup-grid" style={{ gridTemplateColumns: 'repeat(3, 1fr)', gap: '16px', margin: '24px 0' }}>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '6px', background: 'var(--bg-secondary)' }}>
+                  <img src="/figma-screenshots/moniehub_home_section_figma.png" alt="Figma Home Section" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
+                  <div style={{ fontSize: '10px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase' }}>Home Section Blueprint</div>
+                </div>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '6px', background: 'var(--bg-secondary)' }}>
+                  <img src="/figma-screenshots/moniehub_card_section_figma.png" alt="Figma Card Section" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
+                  <div style={{ fontSize: '10px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase' }}>Card Section Blueprint</div>
+                </div>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '6px', background: 'var(--bg-secondary)' }}>
+                  <img src="/figma-screenshots/moniehub_account_section_figma.png" alt="Figma Account Section" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
+                  <div style={{ fontSize: '10px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase' }}>Account Section Blueprint</div>
+                </div>
+              </div>
+
+              <h4>4. Self-Service Virtual Card Orchestration</h4>
               <p>
                 To eliminate pricing and transaction anxiety, I designed a card panel where users can view live card balances (in both NGN and converted USD), fund cards directly from fiat/crypto wallets, freeze cards instantly, and modify transaction ceilings.
               </p>
@@ -162,7 +200,7 @@ export default function MoniehubCaseStudy() {
                 </div>
               </div>
 
-              <h4>3. Progressive Compliance and Tiered Limits</h4>
+              <h4>5. Progressive Compliance and Tiered Limits</h4>
               <p>
                 Instead of requiring users to supply BVN, NIN, and address documents during their first login, I designed a tiered compliance structure. Users start at Tier 1 with small limits, and can upgrade dynamically as they verify their details, with clear visual benefits for each tier.
               </p>
@@ -176,23 +214,6 @@ export default function MoniehubCaseStudy() {
                 <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '6px', background: 'var(--bg-secondary)' }}>
                   <img src="/figma-screenshots/moniehub_manage_card_figma.png" alt="Figma Manage Card options" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
                   <div style={{ fontSize: '10px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase' }}>Figma Card Options Screen</div>
-                </div>
-              </div>
-
-              <h4>4. High-Trust Crypto Trade Swapping</h4>
-              <p>
-                Designing the Trade swap panel required extreme clarity. I created a clean split input (BTC/USDT to NGN) with prominent rate calculators, clear percentage selection buttons (25%, 50%, Max), and progress status cards that provide reassurance during block validations.
-              </p>
-
-              {/* Trade mockup grid */}
-              <div className="stepper-mockup-grid" style={{ gridTemplateColumns: 'repeat(2, 1fr)', gap: '16px', margin: '24px 0' }}>
-                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '6px', background: 'var(--bg-secondary)' }}>
-                  <img src="/figma-screenshots/moniehub_trade_figma.png" alt="Figma Trade Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
-                  <div style={{ fontSize: '10px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase' }}>Figma Trade Interface</div>
-                </div>
-                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '6px', background: 'var(--bg-secondary)' }}>
-                  <img src="/moniehub_trade_crypto.png" alt="Moniehub Trade Success Mockup" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
-                  <div style={{ fontSize: '10px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase' }}>Conversion Success & Details Receipt</div>
                 </div>
               </div>
 
