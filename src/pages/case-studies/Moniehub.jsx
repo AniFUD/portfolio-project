@@ -301,14 +301,30 @@ export default function MoniehubCaseStudy() {
               </p>
 
               {/* Cards screens mockup grid */}
-              <div className="stepper-mockup-grid" style={{ gridTemplateColumns: 'repeat(2, 1fr)', gap: '16px', margin: '24px 0' }}>
-                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '6px', background: 'var(--bg-secondary)' }}>
-                  <img src="/figma-screenshots/moniehub_cards_list_figma.png" alt="Figma Cards List Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
-                  <div style={{ fontSize: '10px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase' }}>Figma Cards List Interface</div>
+              <div className="stepper-mockup-grid" style={{ gridTemplateColumns: 'repeat(5, 1fr)', gap: '10px', margin: '24px 0' }}>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                  <img src="/figma-screenshots/card_create.png" alt="Create Card Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
+                  <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Create Card</div>
                 </div>
-                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '6px', background: 'var(--bg-secondary)' }}>
-                  <img src="/moniehub_card_management.png" alt="Moniehub Card Controls Mockup" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
-                  <div style={{ fontSize: '10px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase' }}>High-fidelity Cards Control Panel</div>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                  <img src="/figma-screenshots/card_label.png" alt="Card Label Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
+                  <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Card Label</div>
+                </div>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                  <img src="/figma-screenshots/card_payment.png" alt="Card Creation Payment Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
+                  <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Card Creation Payment</div>
+                </div>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                  <img src="/figma-screenshots/card_active.png" alt="Active Card Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
+                  <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Active Card</div>
+                </div>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                  <img src="/figma-screenshots/card_manage.png" alt="Manage Card Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
+                  <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Manage Card</div>
+                </div>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                  <img src="/figma-screenshots/card_freeze.png" alt="Freeze Card Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
+                  <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Freeze Card</div>
                 </div>
               </div>
 
