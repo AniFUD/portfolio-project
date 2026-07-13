@@ -49,6 +49,15 @@ export default function Work() {
       path: '/selected-work/techpay'
     },
     {
+      id: 'moniehub',
+      title: 'Moniehub',
+      year: '2025',
+      category: 'Fintech & Multi-Asset Cards — 2025',
+      description: 'A unified digital finance wallet bridging fiat accounts, crypto assets, and virtual card issuance.',
+      image: '/moniehub_hero.png',
+      path: '/selected-work/moniehub'
+    },
+    {
       id: 'my-design-portfolio',
       title: 'My Design Portfolio',
       year: '2026',
