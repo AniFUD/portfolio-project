@@ -129,11 +129,11 @@ export default function MoniehubCaseStudy() {
                 </div>
                 <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
                   <img src="/figma-screenshots/landing_home_closed.png" alt="Home Closed Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
-                  <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Home Closed</div>
+                  <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Amount hidden </div>
                 </div>
                 <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
                   <img src="/figma-screenshots/landing_deposit.png" alt="Deposit Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
-                  <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Deposit</div>
+                  <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Multi-asset wallet</div>
                 </div>
                 <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
                   <img src="/figma-screenshots/landing_deposit_btc.png" alt="Deposit BTC Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
@@ -141,7 +141,7 @@ export default function MoniehubCaseStudy() {
                 </div>
                 <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
                   <img src="/figma-screenshots/landing_transaction_page.png" alt="Transaction Page Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
-                  <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Transactions</div>
+                  <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Transactions History</div>
                 </div>
               </div>
 
