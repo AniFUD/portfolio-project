@@ -35,7 +35,7 @@ export default function MoniehubCaseStudy() {
       {/* Hero Image */}
       <div className="case-study-hero-img-box" style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)' }}>
         <img
-          src="/moniehub_hero.png"
+          src="/moniehub_cover.png"
           alt="Moniehub Mobile Application Dashboard Mockup"
           className="case-study-hero-img"
         />
