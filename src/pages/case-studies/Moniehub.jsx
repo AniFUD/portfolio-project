@@ -123,23 +123,23 @@ export default function MoniehubCaseStudy() {
 
               {/* Home screens mockup grid */}
               <div className="stepper-mockup-grid" style={{ gridTemplateColumns: 'repeat(5, 1fr)', gap: '12px', margin: '24px 0' }}>
-                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
                   <img src="/figma-screenshots/landing_home.png" alt="Home Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
                   <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Home</div>
                 </div>
-                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
                   <img src="/figma-screenshots/landing_home_closed.png" alt="Home Closed Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
                   <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Amount hidden </div>
                 </div>
-                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
                   <img src="/figma-screenshots/landing_deposit.png" alt="Deposit Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
                   <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Multi-asset wallet</div>
                 </div>
-                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
                   <img src="/figma-screenshots/landing_deposit_btc.png" alt="Deposit BTC Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
                   <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Deposit BTC</div>
                 </div>
-                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
                   <img src="/figma-screenshots/landing_transaction_page.png" alt="Transaction Page Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
                   <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Transactions History</div>
                 </div>
@@ -152,23 +152,23 @@ export default function MoniehubCaseStudy() {
 
               {/* Trade mockup grid */}
               <div className="stepper-mockup-grid" style={{ gridTemplateColumns: 'repeat(5, 1fr)', gap: '12px', margin: '24px 0' }}>
-                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
                   <img src="/figma-screenshots/swap_trade.png" alt="Select Asset Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
                   <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Select Asset</div>
                 </div>
-                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
                   <img src="/figma-screenshots/swap_trade_1.png" alt="Enter Amount Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
                   <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Enter Amount</div>
                 </div>
-                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
                   <img src="/figma-screenshots/swap_trade_2.png" alt="Preview Rate Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
                   <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Preview Rate</div>
                 </div>
-                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
                   <img src="/figma-screenshots/swap_pin.png" alt="Confirm PIN Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
                   <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Confirm PIN</div>
                 </div>
-                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
                   <img src="/figma-screenshots/swap_success.png" alt="Success Receipt Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
                   <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Success Receipt</div>
                 </div>
@@ -185,23 +185,23 @@ export default function MoniehubCaseStudy() {
                   <img src="/figma-screenshots/vas_giftcards.png" alt="Giftcards Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
                   <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Select Giftcard</div>
                 </div>
-                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
                   <img src="/figma-screenshots/vas_select_card_type.png" alt="Select Card Type Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
                   <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Select Card Type</div>
                 </div>
-                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
                   <img src="/figma-screenshots/vas_select_currency.png" alt="Select Currency Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
                   <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Select Currency</div>
                 </div>
-                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
                   <img src="/figma-screenshots/vas_set_amount.png" alt="Set Amount Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
                   <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Set Amount</div>
                 </div>
-                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
                   <img src="/figma-screenshots/vas_trade_details.png" alt="Trade Details Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
                   <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Trade Details</div>
                 </div>
-                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '4px', background: 'var(--bg-secondary)' }}>
                   <img src="/figma-screenshots/vas_chat_admin.png" alt="Chat with Admin Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
                   <div style={{ fontSize: '9px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Chat with Admin</div>
                 </div>
@@ -214,11 +214,11 @@ export default function MoniehubCaseStudy() {
 
               {/* Cards screens mockup grid */}
               <div className="stepper-mockup-grid" style={{ gridTemplateColumns: 'repeat(2, 1fr)', gap: '16px', margin: '24px 0' }}>
-                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '6px', background: 'var(--bg-secondary)' }}>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '6px', background: 'var(--bg-secondary)' }}>
                   <img src="/figma-screenshots/moniehub_cards_list_figma.png" alt="Figma Cards List Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
                   <div style={{ fontSize: '10px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase' }}>Figma Cards List Interface</div>
                 </div>
-                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '6px', background: 'var(--bg-secondary)' }}>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '6px', background: 'var(--bg-secondary)' }}>
                   <img src="/moniehub_card_management.png" alt="Moniehub Card Controls Mockup" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
                   <div style={{ fontSize: '10px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase' }}>High-fidelity Cards Control Panel</div>
                 </div>
@@ -231,11 +231,11 @@ export default function MoniehubCaseStudy() {
 
               {/* Account limits mockup grid */}
               <div className="stepper-mockup-grid" style={{ gridTemplateColumns: 'repeat(2, 1fr)', gap: '16px', margin: '24px 0' }}>
-                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '6px', background: 'var(--bg-secondary)' }}>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '6px', background: 'var(--bg-secondary)' }}>
                   <img src="/figma-screenshots/moniehub_account_limits_figma.png" alt="Figma Account Limits Screen" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
                   <div style={{ fontSize: '10px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase' }}>Figma Account Verification Limits Screen</div>
                 </div>
-                <div style={{ border: '1px solid var(--border-color)', borderRadius: '8px', overflow: 'hidden', padding: '6px', background: 'var(--bg-secondary)' }}>
+                <div style={{ border: '1px solid var(--border-color)', borderRadius: '14px', overflow: 'hidden', padding: '6px', background: 'var(--bg-secondary)' }}>
                   <img src="/figma-screenshots/moniehub_manage_card_figma.png" alt="Figma Manage Card options" style={{ width: '100%', borderRadius: '6px', display: 'block' }} />
                   <div style={{ fontSize: '10px', textAlign: 'center', marginTop: '6px', color: 'var(--text-tertiary)', fontWeight: '600', textTransform: 'uppercase' }}>Figma Card Options Screen</div>
                 </div>
