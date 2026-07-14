@@ -27,15 +27,15 @@ export default function BuffaloCaseStudy() {
 
       {/* Case Study Header */}
       <header className="case-study-title-block">
-        <span className="case-study-eyebrow" style={{ color: '#D97706' }}>Enterprise Operations Platform</span>
+        <span className="case-study-eyebrow" style={{ color: '#7e7e7eff' }}>Enterprise Operations Platform</span>
         <h1 className="case-study-title">The Buffalo Project: Custom enterprise resource and logistics workflow tracker</h1>
       </header>
 
       {/* Hero Image */}
       <div className="case-study-hero-img-box" style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', background: '#000' }}>
-        <video 
-          src="/buffalo_cover.webm" 
-          alt="The Buffalo Project Hero Video Loop" 
+        <video
+          src="/buffalo_cover.webm"
+          alt="The Buffalo Project Hero Video Loop"
           className="case-study-hero-img"
           autoPlay
           loop
@@ -83,12 +83,12 @@ export default function BuffaloCaseStudy() {
           <section className="case-study-section">
             <h3 className="case-study-section-title">Project Status</h3>
             <div className="case-study-body">
-              <div 
-                style={{ 
-                  background: 'rgba(217, 119, 6, 0.08)', 
-                  border: '1px solid rgba(217, 119, 6, 0.25)', 
-                  borderRadius: '8px', 
-                  padding: '16px 20px', 
+              <div
+                style={{
+                  background: 'rgba(217, 119, 6, 0.08)',
+                  border: '1px solid rgba(217, 119, 6, 0.25)',
+                  borderRadius: '8px',
+                  padding: '16px 20px',
                   marginBottom: '24px',
                   color: '#D97706',
                   fontFamily: 'var(--font-sans)',
