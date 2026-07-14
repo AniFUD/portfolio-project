@@ -36,7 +36,7 @@ export default function MyDesignPortfolio() {
       {/* Hero Image */}
       <div className="case-study-hero-img-box" style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)' }}>
         <img 
-          src="/homepage_snapshot.png" 
+          src="/portfolio_cover.png" 
           alt="My Design Portfolio Hero Mockup" 
           className="case-study-hero-img"
           style={{ objectPosition: 'top' }}
