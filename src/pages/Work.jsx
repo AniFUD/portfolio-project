@@ -50,7 +50,7 @@ export default function Work() {
     },
     {
       id: 'my-design-portfolio',
-      title: 'My Design Portfolio',
+      title: 'Design Portfolio',
       year: '2026',
       category: 'Product Design & AI Engineering — 2026',
       description: 'Architecting a living digital archive through AI-assisted product design and front-end engineering.',
