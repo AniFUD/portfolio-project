@@ -39,7 +39,7 @@ export default function MyDesignPortfolio() {
           src="/portfolio_cover.png" 
           alt="My Design Portfolio Hero Mockup" 
           className="case-study-hero-img"
-          style={{ objectPosition: 'center' }}
+          style={{ objectPosition: 'center', objectFit: 'contain' }}
         />
       </div>
 
