@@ -124,7 +124,7 @@ export default function BuffaloCaseStudy() {
               <polyline points="12 19 5 12 12 5"></polyline>
             </svg>
           </span>
-          <span className="case-study-nav-title">My Design Portfolio</span>
+          <span className="case-study-nav-title">Design Portfolio</span>
         </Link>
         <Link to="/selected-work/lagos-revenue-portal" className="case-study-nav-btn next">
           <span className="case-study-nav-title">Lagos Revenue Portal</span>
