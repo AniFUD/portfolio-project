@@ -12,24 +12,32 @@ import MyDesignPortfolio from './pages/case-studies/MyDesignPortfolio';
 import Moniehub from './pages/case-studies/Moniehub';
 
 
+let audioCtx = null;
+
 const playTickSound = () => {
   try {
-    const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (!audioCtx) {
+      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    }
+    if (audioCtx.state === 'suspended') {
+      audioCtx.resume();
+    }
+
     const osc = audioCtx.createOscillator();
     const gainNode = audioCtx.createGain();
     
     osc.type = 'sine';
     osc.frequency.setValueAtTime(1000, audioCtx.currentTime);
-    osc.frequency.exponentialRampToValueAtTime(600, audioCtx.currentTime + 0.04);
+    osc.frequency.exponentialRampToValueAtTime(600, audioCtx.currentTime + 0.08);
     
-    gainNode.gain.setValueAtTime(0.012, audioCtx.currentTime);
-    gainNode.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + 0.04);
+    gainNode.gain.setValueAtTime(0.04, audioCtx.currentTime);
+    gainNode.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + 0.08);
     
     osc.connect(gainNode);
     gainNode.connect(audioCtx.destination);
     
     osc.start();
-    osc.stop(audioCtx.currentTime + 0.04);
+    osc.stop(audioCtx.currentTime + 0.08);
   } catch (err) {
     // Suppress errors (like AudioContext blocked by autoplay policy before user interaction)
   }
@@ -85,7 +93,7 @@ export default function App() {
 
     const handleMouseOver = (e) => {
       const hoverable = e.target.closest(
-        '.nav-link, .nav-logo-group, .case-study-back-btn, .case-study-view-project-btn, .theme-toggle-btn, .menu-toggle-btn, .work-grid-card, .work-page-card, .list-card-item, .footer-link, .footer-social-icon, .footer-resume-link, .about-collage-img-box'
+        '.nav-link, .nav-logo-group, .case-study-back-btn, .case-study-view-project-btn, .case-study-nav-btn, .theme-toggle-btn, .menu-toggle-btn, .work-grid-card, .work-page-card, .list-card-item, .footer-link, .footer-social-icon, .footer-resume-link, .about-collage-img-box'
       );
       
       if (hoverable) {
@@ -100,7 +108,7 @@ export default function App() {
 
     const handleMouseOut = (e) => {
       if (lastHoveredElement && !e.relatedTarget?.closest(
-        '.nav-link, .nav-logo-group, .case-study-back-btn, .case-study-view-project-btn, .theme-toggle-btn, .menu-toggle-btn, .work-grid-card, .work-page-card, .list-card-item, .footer-link, .footer-social-icon, .footer-resume-link, .about-collage-img-box'
+        '.nav-link, .nav-logo-group, .case-study-back-btn, .case-study-view-project-btn, .case-study-nav-btn, .theme-toggle-btn, .menu-toggle-btn, .work-grid-card, .work-page-card, .list-card-item, .footer-link, .footer-social-icon, .footer-resume-link, .about-collage-img-box'
       )) {
         lastHoveredElement = null;
       }
