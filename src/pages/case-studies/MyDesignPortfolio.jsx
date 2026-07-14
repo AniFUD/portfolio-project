@@ -4,7 +4,6 @@ import ExternalLinkModal from '../../components/ExternalLinkModal';
 
 export default function MyDesignPortfolio() {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [activeGalleryTab, setActiveGalleryTab] = useState('light');
 
   return (
     <div className="fade-in-el">
@@ -30,7 +29,7 @@ export default function MyDesignPortfolio() {
       {/* Case Study Header */}
       <header className="case-study-title-block">
         <span className="case-study-eyebrow">Personal Project - Portfolio Development</span>
-        <h1 className="case-study-title">My Design Portfolio: Architecting a living digital archive through AI-assisted product design and front-end engineering</h1>
+        <h1 className="case-study-title">Design Portfolio: Architecting a living digital archive through AI-assisted product design and front-end engineering</h1>
       </header>
 
       {/* Hero Image */}
