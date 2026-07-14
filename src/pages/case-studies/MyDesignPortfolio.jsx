@@ -151,14 +151,14 @@ export default function MyDesignPortfolio() {
               </p>
               <ul>
                 <li>
-                  <strong>Claude</strong> served as my structural architecture advisor. We brainstormed clean component modularity, outlined path structures, and mapped the data models for projects.
+                  <strong>Claude</strong> served as my structural architecture advisor. I brainstormed clean component modularity, outlined path structures, and mapped the data models for projects.
                 </li>
                 <li>
-                  <strong>Antigravity</strong> was my direct implementation partner. Through dozens of iterations, we built and refined components: transitioning from Framer-hosted placeholders to high-fidelity local React elements, implementing theme toggling, adding interactive modals, and optimizing performance.
+                  <strong>Antigravity</strong> was my direct implementation partner. Through dozens of iterations, I built and refined components: transitioning from Framer-hosted placeholders to high-fidelity local React elements, implementing theme toggling, adding interactive modals, and optimizing performance.
                 </li>
               </ul>
               <p>
-                One highlight of this collaboration was the introduction of auditory feedback. Using the **Web Audio API**, we synthesized custom hover chime sounds dynamically in the browser, catching autoplay policy constraints silently and playing only after a user gesture.
+                One highlight of this collaboration was the introduction of auditory feedback. Using the **Web Audio API**, I synthesized custom hover chime sounds dynamically in the browser, catching autoplay policy constraints silently and playing only after a user gesture.
               </p>
             </div>
           </section>
