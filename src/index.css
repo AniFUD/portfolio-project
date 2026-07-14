@@ -855,6 +855,18 @@ body {
   color: var(--text-secondary);
 }
 
+.case-study-sidebar-link {
+  color: var(--text-primary);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.case-study-sidebar-link:hover {
+  text-decoration: underline;
+  color: var(--accent);
+}
+
 .case-study-main {
   display: flex;
   flex-direction: column;
