@@ -1587,9 +1587,6 @@ body {
 
   /* Mobile Header Adjustments */
   .nav-header {
-    padding: 12px 16px;
-    margin-left: -16px;
-    margin-right: -16px;
     margin-bottom: 40px !important;
     position: relative;
     z-index: 100;
