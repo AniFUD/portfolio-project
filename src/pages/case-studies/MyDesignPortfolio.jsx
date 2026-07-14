@@ -42,33 +42,54 @@ export default function MyDesignPortfolio() {
         />
       </div>
 
-      {/* Content Grid */}
-      <div className="case-study-content-grid">
-        {/* Sidebar Metadata */}
-        <aside className="case-study-sidebar">
-          <div className="case-study-sidebar-section">
-            <h4 className="case-study-sidebar-title">Skills I contributed</h4>
-            <ul className="case-study-sidebar-list">
-              <li>AI-Augmented Design</li>
-              <li>UX & Interaction Architecture</li>
-              <li>Front-End Engineering (React)</li>
-              <li>Systems & Layout Typography</li>
-              <li>Audio Synthesis (Web Audio API)</li>
-            </ul>
-          </div>
-          <div className="case-study-sidebar-section">
-            <h4 className="case-study-sidebar-title">Tools & Agents</h4>
-            <ul className="case-study-sidebar-list">
-              <li><a href="https://workflowy.com" target="_blank" rel="noopener noreferrer" className="case-study-sidebar-link">Workflowy</a><br/><span style={{fontSize:'13px', color:'var(--text-tertiary)'}}>Outlining & Site Map</span></li>
-              <li style={{marginTop:'8px'}}><a href="https://whimsical.com" target="_blank" rel="noopener noreferrer" className="case-study-sidebar-link">Whimsical</a><br/><span style={{fontSize:'13px', color:'var(--text-tertiary)'}}>User Flows & Wireframes</span></li>
-              <li style={{marginTop:'8px'}}><a href="https://claude.ai" target="_blank" rel="noopener noreferrer" className="case-study-sidebar-link">Claude</a><br/><span style={{fontSize:'13px', color:'var(--text-tertiary)'}}>Architecture Design Partner</span></li>
-              <li style={{marginTop:'8px'}}><a href="https://deepmind.google" target="_blank" rel="noopener noreferrer" className="case-study-sidebar-link">Antigravity</a><br/><span style={{fontSize:'13px', color:'var(--text-tertiary)'}}>AI Pair Programmer & Builder</span></li>
-            </ul>
-          </div>
-        </aside>
+      {/* Project Metadata Section */}
+      <div style={{
+        display: 'grid',
+        gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+        gap: '40px',
+        margin: '48px 0 64px 0',
+        paddingBottom: '40px',
+        borderBottom: '1px solid var(--border-color)'
+      }}>
+        <div>
+          <h4 className="case-study-sidebar-title" style={{ marginBottom: '16px', fontSize: '13px', letterSpacing: '0.05em' }}>Skills I contributed</h4>
+          <ul className="case-study-sidebar-list" style={{ display: 'flex', flexWrap: 'wrap', gap: '8px 12px', listStyle: 'none', padding: 0 }}>
+            {['AI-Augmented Design', 'UX & Interaction Architecture', 'Front-End Engineering (React)', 'Systems & Layout Typography', 'Audio Synthesis (Web Audio API)'].map(skill => (
+              <li key={skill} style={{
+                background: 'var(--hover-bg)',
+                border: '1px solid var(--border-color)',
+                padding: '6px 12px',
+                borderRadius: '6px',
+                fontSize: '13px',
+                color: 'var(--text-secondary)'
+              }}>
+                {skill}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <h4 className="case-study-sidebar-title" style={{ marginBottom: '16px', fontSize: '13px', letterSpacing: '0.05em' }}>Tools & Agents</h4>
+          <ul className="case-study-sidebar-list" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '16px', listStyle: 'none', padding: 0 }}>
+            {[
+              { name: 'Workflowy', url: 'https://workflowy.com', desc: 'Outlining & Site Map' },
+              { name: 'Whimsical', url: 'https://whimsical.com', desc: 'User Flows & Wireframes' },
+              { name: 'Claude', url: 'https://claude.ai', desc: 'Architecture Design Partner' },
+              { name: 'Antigravity', url: 'https://deepmind.google', desc: 'AI Pair Programmer & Builder' }
+            ].map(tool => (
+              <li key={tool.name}>
+                <a href={tool.url} target="_blank" rel="noopener noreferrer" className="case-study-sidebar-link" style={{ fontWeight: '600' }}>
+                  {tool.name}
+                </a>
+                <div style={{ fontSize: '12px', color: 'var(--text-tertiary)', marginTop: '2px' }}>{tool.desc}</div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
 
-        {/* Main Narrative */}
-        <main className="case-study-main">
+      {/* Main Narrative (Full Width Layout) */}
+      <main className="case-study-main-flow">
           {/* Section: My Role */}
           <section className="case-study-section">
             <h3 className="case-study-section-title">My role</h3>
@@ -340,7 +361,7 @@ export default function MyDesignPortfolio() {
                 Building a modern portfolio platform from scratch is more than writing code—it is an exercise in recursive prompt and loop engineering. Working in tandem with AI agents, I treated the engineering lifecycle as a dynamic feedback loop. Instead of expecting immediate, static outputs from simple prompts, I structured development around <strong>multi-turn refining loops</strong>.
               </p>
               <p>
-                Each interaction with the AI was evaluated against visual prototypes and user requirements. This cycle—designing, prompting, auditing code, checking rendering states, and running refactoring passes—was repeated dozens of times. We focused on micro-level adjustments: aligning card margins, structuring CSS tokens, configuring theme-switching states, and balancing layout offsets. By utilizing active review sessions, we identified discrepancies in the UI, adjusted the instructions, and re-executed until the layout looked premium and balanced.
+                Each interaction with the AI was evaluated against visual prototypes and user requirements. This cycle—designing, prompting, auditing code, checking rendering states, and running refactoring passes—was repeated dozens of times. I focused on micro-level adjustments: aligning card margins, structuring CSS tokens, configuring theme-switching states, and balancing layout offsets. By utilizing active review sessions, I identified discrepancies in the UI, adjusted the instructions, and re-executed until the layout looked premium and balanced.
               </p>
             </div>
           </section>
@@ -350,7 +371,7 @@ export default function MyDesignPortfolio() {
             <h3 className="case-study-section-title">Code Snapshots & Design Intent</h3>
             <div className="case-study-body">
               <p>
-                To achieve high visual and interactive excellence, we wrote custom components to handle dynamic site states. Below are the key snapshots of code and what we set out to achieve with them:
+                To achieve high visual and interactive excellence, I wrote custom components to handle dynamic site states. Below are the key snapshots of code and what I set out to achieve with them:
               </p>
 
               <h4 style={{ marginTop: '24px', fontSize: '15px', color: 'var(--text-primary)' }}>1. Dynamic Web Audio Chime Synthesizer</h4>
@@ -402,7 +423,7 @@ const playTickSound = () => {
 
               <h4 style={{ marginTop: '24px', fontSize: '15px', color: 'var(--text-primary)' }}>2. Tactical Bottom Navigation & Sliding Hover States</h4>
               <p>
-                <strong>Intent:</strong> For the case study footer, we designed a balanced, split-card layout with arrows and titles aligned on opposite ends. On hover, the arrow shifts dynamically along the X-axis while the card lifts vertically and expands a soft shadow.
+                <strong>Intent:</strong> For the case study footer, I designed a balanced, split-card layout with arrows and titles aligned on opposite ends. On hover, the arrow shifts dynamically along the X-axis while the card lifts vertically and expands a soft shadow.
               </p>
               <pre style={{
                 background: 'var(--hover-bg)',
@@ -472,10 +493,10 @@ const playTickSound = () => {
             <h3 className="case-study-section-title">Continuous Feedback & Iterative Reviews</h3>
             <div className="case-study-body">
               <p>
-                A high-fidelity portfolio is a living product that thrives on design critique. During this project's development, I actively gathered feedback from reviews. This testing helped us identify areas where the layout didn't feel balanced or the contrast was too harsh.
+                A high-fidelity portfolio is a living product that thrives on design critique. During this project's development, I actively gathered feedback from reviews. This testing helped me identify areas where the layout didn't feel balanced or the contrast was too harsh.
               </p>
               <p>
-                For example, reviews highlighted that the initial hero mockup image aspect-ratio cropped out vital page navigation elements. We responded by changing the cover asset and tuning the box ratio to its native proportions, ensuring full visibility. Similarly, our sound volumes were initially too low; user testing guided us to scale the Web Audio synthesizer gain settings so the click feedback was audible and satisfying.
+                For example, reviews highlighted that the initial hero mockup image aspect-ratio cropped out vital page navigation elements. I responded by changing the cover asset and tuning the box ratio to its native proportions, ensuring full visibility. Similarly, my sound volumes were initially too low; user testing guided me to scale the Web Audio synthesizer gain settings so the click feedback was audible and satisfying.
               </p>
               <p>
                 This process of gathering review feedback, refining implementation plans, and making structural adjustments is ongoing. I will continue collecting user feedback, auditing responsiveness, and deploying continuous layout updates to maintain a state-of-the-art interactive experience.
@@ -484,7 +505,6 @@ const playTickSound = () => {
           </section>
 
         </main>
-      </div>
 
       {/* Bottom Navigation */}
       <footer className="case-study-nav">
