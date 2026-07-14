@@ -20,14 +20,11 @@ export default function MoniehubCaseStudy() {
           <button
             className="case-study-view-project-btn"
             style={{
-              background: 'rgba(217, 119, 6, 0.12)',
-              borderColor: 'rgba(217, 119, 6, 0.4)',
               color: '#D97706',
-              fontWeight: '600',
               cursor: 'help'
             }}
           >
-            Under Development
+            UNDER DEVELOPMENT
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ marginLeft: '6px' }}>
               <circle cx="12" cy="12" r="10"></circle>
               <line x1="12" y1="8" x2="12" y2="12"></line>
