@@ -36,7 +36,7 @@ export default function MyDesignPortfolio() {
       <div className="case-study-hero-img-box" style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', aspectRatio: '9072 / 5616' }}>
         <img 
           src="/portfolio_cover.png" 
-          alt="My Design Portfolio Hero Mockup" 
+          alt="Design Portfolio Hero Mockup" 
           className="case-study-hero-img"
           style={{ objectPosition: 'center', objectFit: 'cover' }}
         />
@@ -265,7 +265,7 @@ export default function MyDesignPortfolio() {
                         <div>• Ton-Kilometres</div>
                         <div>• Lagos Revenue Portal</div>
                         <div>• XND V2.0 & Techpay</div>
-                        <div>• My Design Portfolio</div>
+                        <div>• Design Portfolio</div>
                       </div>
                     </div>
 
@@ -511,7 +511,7 @@ const playTickSound = () => {
         isOpen={isModalOpen} 
         onClose={() => setIsModalOpen(false)} 
         projectUrl="https://github.com/odunayofalade"
-        projectName="My Design Portfolio codebase"
+        projectName="Design Portfolio codebase"
       />
     </div>
   );
