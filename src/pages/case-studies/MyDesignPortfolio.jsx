@@ -42,54 +42,33 @@ export default function MyDesignPortfolio() {
         />
       </div>
 
-      {/* Project Metadata Section */}
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
-        gap: '40px',
-        margin: '48px 0 64px 0',
-        paddingBottom: '40px',
-        borderBottom: '1px solid var(--border-color)'
-      }}>
-        <div>
-          <h4 className="case-study-sidebar-title" style={{ marginBottom: '16px', fontSize: '13px', letterSpacing: '0.05em' }}>Skills I contributed</h4>
-          <ul className="case-study-sidebar-list" style={{ display: 'flex', flexWrap: 'wrap', gap: '8px 12px', listStyle: 'none', padding: 0 }}>
-            {['AI-Augmented Design', 'UX & Interaction Architecture', 'Front-End Engineering (React)', 'Systems & Layout Typography', 'Audio Synthesis (Web Audio API)'].map(skill => (
-              <li key={skill} style={{
-                background: 'var(--hover-bg)',
-                border: '1px solid var(--border-color)',
-                padding: '6px 12px',
-                borderRadius: '6px',
-                fontSize: '13px',
-                color: 'var(--text-secondary)'
-              }}>
-                {skill}
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div>
-          <h4 className="case-study-sidebar-title" style={{ marginBottom: '16px', fontSize: '13px', letterSpacing: '0.05em' }}>Tools & Agents</h4>
-          <ul className="case-study-sidebar-list" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '16px', listStyle: 'none', padding: 0 }}>
-            {[
-              { name: 'Workflowy', url: 'https://workflowy.com', desc: 'Outlining & Site Map' },
-              { name: 'Whimsical', url: 'https://whimsical.com', desc: 'User Flows & Wireframes' },
-              { name: 'Claude', url: 'https://claude.ai', desc: 'Architecture Design Partner' },
-              { name: 'Antigravity', url: 'https://deepmind.google', desc: 'AI Pair Programmer & Builder' }
-            ].map(tool => (
-              <li key={tool.name}>
-                <a href={tool.url} target="_blank" rel="noopener noreferrer" className="case-study-sidebar-link" style={{ fontWeight: '600' }}>
-                  {tool.name}
-                </a>
-                <div style={{ fontSize: '12px', color: 'var(--text-tertiary)', marginTop: '2px' }}>{tool.desc}</div>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
+      {/* Content Grid */}
+      <div className="case-study-content-grid">
+        {/* Sidebar Metadata */}
+        <aside className="case-study-sidebar">
+          <div className="case-study-sidebar-section">
+            <h4 className="case-study-sidebar-title">Skills I contributed</h4>
+            <ul className="case-study-sidebar-list">
+              <li>AI-Augmented Design</li>
+              <li>UX & Interaction Architecture</li>
+              <li>Front-End Engineering (React)</li>
+              <li>Systems & Layout Typography</li>
+              <li>Audio Synthesis (Web Audio API)</li>
+            </ul>
+          </div>
+          <div className="case-study-sidebar-section">
+            <h4 className="case-study-sidebar-title">Tools & Agents</h4>
+            <ul className="case-study-sidebar-list">
+              <li><a href="https://workflowy.com" target="_blank" rel="noopener noreferrer" className="case-study-sidebar-link">Workflowy</a><br/><span style={{fontSize:'13px', color:'var(--text-tertiary)'}}>Outlining & Site Map</span></li>
+              <li style={{marginTop:'8px'}}><a href="https://whimsical.com" target="_blank" rel="noopener noreferrer" className="case-study-sidebar-link">Whimsical</a><br/><span style={{fontSize:'13px', color:'var(--text-tertiary)'}}>User Flows & Wireframes</span></li>
+              <li style={{marginTop:'8px'}}><a href="https://claude.ai" target="_blank" rel="noopener noreferrer" className="case-study-sidebar-link">Claude</a><br/><span style={{fontSize:'13px', color:'var(--text-tertiary)'}}>Architecture Design Partner</span></li>
+              <li style={{marginTop:'8px'}}><a href="https://deepmind.google" target="_blank" rel="noopener noreferrer" className="case-study-sidebar-link">Antigravity</a><br/><span style={{fontSize:'13px', color:'var(--text-tertiary)'}}>AI Pair Programmer & Builder</span></li>
+            </ul>
+          </div>
+        </aside>
 
-      {/* Main Narrative (Full Width Layout) */}
-      <main className="case-study-main-flow">
+        {/* Main Narrative */}
+        <main className="case-study-main">
           {/* Section: My Role */}
           <section className="case-study-section">
             <h3 className="case-study-section-title">My role</h3>
@@ -505,6 +484,7 @@ const playTickSound = () => {
           </section>
 
         </main>
+      </div>
 
       {/* Bottom Navigation */}
       <footer className="case-study-nav">
