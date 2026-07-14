@@ -112,7 +112,7 @@ export default function Work() {
                 />
               ) : study.id === 'my-design-portfolio' ? (
                 <video
-                  src="/portfolio.webm"
+                  src="/mydesign_recording.mp4"
                   className="work-page-card-image"
                   autoPlay
                   loop
