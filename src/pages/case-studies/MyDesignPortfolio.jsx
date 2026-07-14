@@ -34,7 +34,7 @@ export default function MyDesignPortfolio() {
       </header>
 
       {/* Hero Image */}
-      <div className="case-study-hero-img-box" style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', aspectRatio: '16 / 9' }}>
+      <div className="case-study-hero-img-box" style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', aspectRatio: '9072 / 5616' }}>
         <img 
           src="/portfolio_cover.png" 
           alt="My Design Portfolio Hero Mockup" 
