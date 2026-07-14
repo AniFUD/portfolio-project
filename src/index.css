@@ -813,14 +813,14 @@ body {
 
 .case-study-content-grid {
   display: grid;
-  grid-template-columns: 280px 1fr;
+  grid-template-columns: 280px minmax(0, 1fr);
   gap: 80px;
   margin-bottom: 80px;
 }
 
 @media (max-width: 900px) {
   .case-study-content-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 48px;
   }
 }
@@ -876,6 +876,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 56px;
+  min-width: 0;
 }
 
 .case-study-section {
