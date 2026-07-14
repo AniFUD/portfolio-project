@@ -2095,3 +2095,103 @@ body {
     gap: 12px;
   }
 }
+
+/* Custom Responsive Sitemap Styles for MyDesignPortfolio */
+.sitemap-container {
+  background: var(--hover-bg);
+  border-radius: 8px;
+  padding: 24px;
+  margin-top: 16px;
+  border: 1px solid var(--border-color);
+  font-family: var(--font-sans);
+}
+
+.sitemap-tree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.sitemap-root {
+  background: var(--text-primary);
+  color: var(--bg-primary);
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.sitemap-line {
+  width: 2px;
+  height: 20px;
+  background: var(--border-color);
+}
+
+.sitemap-branches {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  gap: 16px;
+}
+
+.sitemap-branch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  min-width: 160px;
+}
+
+.sitemap-node {
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+}
+
+.sitemap-subline {
+  width: 2px;
+  height: 16px;
+  background: var(--border-color);
+}
+
+.sitemap-leaves {
+  background: var(--hover-bg);
+  border: 1px dashed var(--border-color);
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  color: var(--text-secondary);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* Sitemap Responsiveness for smaller screens */
+@media (max-width: 768px) {
+  .sitemap-container {
+    padding: 16px;
+  }
+  
+  .sitemap-branches {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 24px;
+  }
+  
+  .sitemap-branch {
+    min-width: 0;
+  }
+  
+  .sitemap-line {
+    display: none;
+  }
+}
