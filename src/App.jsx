@@ -6,7 +6,7 @@ import About from './pages/About';
 import Work from './pages/Work';
 import LagosRevenuePortal from './pages/case-studies/LagosRevenuePortal';
 import Xnd from './pages/case-studies/Xnd';
-import AssetsCaseStudy from './pages/case-studies/AssetsCaseStudy';
+import BuffaloCaseStudy from './pages/case-studies/BuffaloCaseStudy';
 import TechpayCaseStudy from './pages/case-studies/TechpayCaseStudy';
 import MyDesignPortfolio from './pages/case-studies/MyDesignPortfolio';
 import Moniehub from './pages/case-studies/Moniehub';
@@ -171,7 +171,7 @@ export default function App() {
             <Route path="/work" element={<Work />} />
             <Route path="/selected-work/lagos-revenue-portal" element={<LagosRevenuePortal />} />
             <Route path="/selected-work/xnd" element={<Xnd />} />
-            <Route path="/selected-work/assets" element={<AssetsCaseStudy />} />
+            <Route path="/selected-work/assets" element={<BuffaloCaseStudy />} />
             <Route path="/selected-work/techpay" element={<TechpayCaseStudy />} />
             <Route path="/selected-work/moniehub" element={<Moniehub />} />
             <Route path="/selected-work/my-design-portfolio" element={<MyDesignPortfolio />} />
