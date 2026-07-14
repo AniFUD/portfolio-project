@@ -727,6 +727,7 @@ body {
   text-decoration: none;
   align-self: center;
   padding: 6px 12px;
+  margin-left: -12px;
   border-radius: 6px;
   transition: all 0.25s ease;
 }
