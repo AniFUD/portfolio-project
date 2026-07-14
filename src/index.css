@@ -758,11 +758,11 @@ body {
 
 .case-study-view-project-btn:hover {
   background: none;
-  color: var(--accent);
+  color: var(--text-primary);
   border-color: transparent;
   box-shadow: none;
   transform: none;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .case-study-title-block {
