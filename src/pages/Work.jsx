@@ -102,7 +102,7 @@ export default function Work() {
                 />
               ) : study.id === 'techpay' ? (
                 <video
-                  src="/Techpay_Cover.webm"
+                  src="/Techpay_Cover_II.webm"
                   className="work-page-card-image"
                   autoPlay
                   loop
