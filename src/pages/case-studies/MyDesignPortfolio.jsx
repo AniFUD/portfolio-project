@@ -331,165 +331,155 @@ export default function MyDesignPortfolio() {
             </div>
           </section>
 
-          {/* Section: Visual Gallery */}
+          {/* Section: Prompt & Loop Engineering */}
           <section className="case-study-section">
-            <h3 className="case-study-section-title">Page Snapshots</h3>
+            <h3 className="case-study-section-title">Prompt & Loop Engineering</h3>
             <div className="case-study-body">
               <p>
-                Below are the snapshots of my portfolio showing layout densities, typography hierarchies, and dark-mode structures across different states:
+                Building a modern portfolio platform from scratch is more than writing code—it is an exercise in recursive prompt and loop engineering. Working in tandem with AI agents, I treated the engineering lifecycle as a dynamic feedback loop. Instead of expecting immediate, static outputs from simple prompts, I structured development around <strong>multi-turn refining loops</strong>.
+              </p>
+              <p>
+                Each interaction with the AI was evaluated against visual prototypes and user requirements. This cycle—designing, prompting, auditing code, checking rendering states, and running refactoring passes—was repeated dozens of times. We focused on micro-level adjustments: aligning card margins, structuring CSS tokens, configuring theme-switching states, and balancing layout offsets. By utilizing active review sessions, we identified discrepancies in the UI, adjusted the instructions, and re-executed until the layout looked premium and balanced.
               </p>
             </div>
+          </section>
 
-            {/* Mode Tab Switcher */}
-            <div style={{ 
-              display: 'flex', 
-              gap: '12px', 
-              marginBottom: '24px', 
-              marginTop: '16px',
-              borderBottom: '1px solid var(--border-color)',
-              paddingBottom: '8px'
-            }}>
-              <button 
-                onClick={() => setActiveGalleryTab('light')}
-                style={{
-                  background: 'none',
-                  border: 'none',
-                  borderBottom: activeGalleryTab === 'light' ? '2px solid var(--accent)' : '2px solid transparent',
-                  padding: '8px 16px',
-                  fontWeight: '600',
-                  fontSize: '13px',
-                  color: activeGalleryTab === 'light' ? 'var(--text-primary)' : 'var(--text-tertiary)',
-                  cursor: 'pointer',
-                  outline: 'none',
-                  letterSpacing: '0.5px'
-                }}
-              >
-                LIGHT MODE
-              </button>
-              <button 
-                onClick={() => setActiveGalleryTab('dark')}
-                style={{
-                  background: 'none',
-                  border: 'none',
-                  borderBottom: activeGalleryTab === 'dark' ? '2px solid var(--accent)' : '2px solid transparent',
-                  padding: '8px 16px',
-                  fontWeight: '600',
-                  fontSize: '13px',
-                  color: activeGalleryTab === 'dark' ? 'var(--text-primary)' : 'var(--text-tertiary)',
-                  cursor: 'pointer',
-                  outline: 'none',
-                  letterSpacing: '0.5px'
-                }}
-              >
-                DARK MODE
-              </button>
+          {/* Section: Component Architecture & Code Snapshots */}
+          <section className="case-study-section">
+            <h3 className="case-study-section-title">Code Snapshots & Design Intent</h3>
+            <div className="case-study-body">
+              <p>
+                To achieve high visual and interactive excellence, we wrote custom components to handle dynamic site states. Below are the key snapshots of code and what we set out to achieve with them:
+              </p>
+
+              <h4 style={{ marginTop: '24px', fontSize: '15px', color: 'var(--text-primary)' }}>1. Dynamic Web Audio Chime Synthesizer</h4>
+              <p>
+                <strong>Intent:</strong> Standard audio elements are heavy and suffer from loading lag. Instead, I wanted to synthesize clean, lightweight mechanical chime sounds directly in the browser using the Web Audio API. The challenge was preventing browser policy blocks on autoplay prior to user interaction.
+              </p>
+              <pre style={{
+                background: 'var(--hover-bg)',
+                padding: '16px',
+                borderRadius: '8px',
+                border: '1px solid var(--border-color)',
+                overflowX: 'auto',
+                fontSize: '13px',
+                fontFamily: 'monospace',
+                marginTop: '12px',
+                color: 'var(--text-secondary)'
+              }}>
+{`let audioCtx = null;
+
+const playTickSound = () => {
+  try {
+    if (!audioCtx) {
+      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    }
+    if (audioCtx.state === 'suspended') {
+      audioCtx.resume();
+    }
+
+    const osc = audioCtx.createOscillator();
+    const gainNode = audioCtx.createGain();
+    
+    osc.type = 'sine';
+    osc.frequency.setValueAtTime(1000, audioCtx.currentTime);
+    osc.frequency.exponentialRampToValueAtTime(600, audioCtx.currentTime + 0.08);
+    
+    gainNode.gain.setValueAtTime(0.04, audioCtx.currentTime);
+    gainNode.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + 0.08);
+    
+    osc.connect(gainNode);
+    gainNode.connect(audioCtx.destination);
+    
+    osc.start();
+    osc.stop(audioCtx.currentTime + 0.08);
+  } catch (err) {
+    // Suppress errors (like AudioContext blocked by autoplay)
+  }
+};`}
+              </pre>
+
+              <h4 style={{ marginTop: '24px', fontSize: '15px', color: 'var(--text-primary)' }}>2. Tactical Bottom Navigation & Sliding Hover States</h4>
+              <p>
+                <strong>Intent:</strong> For the case study footer, we designed a balanced, split-card layout with arrows and titles aligned on opposite ends. On hover, the arrow shifts dynamically along the X-axis while the card lifts vertically and expands a soft shadow.
+              </p>
+              <pre style={{
+                background: 'var(--hover-bg)',
+                padding: '16px',
+                borderRadius: '8px',
+                border: '1px solid var(--border-color)',
+                overflowX: 'auto',
+                fontSize: '13px',
+                fontFamily: 'monospace',
+                marginTop: '12px',
+                color: 'var(--text-secondary)'
+              }}>
+{`/* Bottom Case Study Navigation */
+.case-study-nav-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 16px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s, box-shadow 0.3s ease;
+}
+
+.case-study-nav-btn:hover {
+  background: var(--bg-secondary);
+  border-color: var(--border-color);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  transform: translateY(-2px);
+}
+
+.case-study-nav-btn.prev:hover .case-study-nav-arrow {
+  transform: translateX(-4px);
+  color: var(--accent);
+}`}
+              </pre>
+
+              <h4 style={{ marginTop: '24px', fontSize: '15px', color: 'var(--text-primary)' }}>3. Failsafe Theme Switching Hook</h4>
+              <p>
+                <strong>Intent:</strong> Ensure theme changes happen instantaneously, sync dynamically across multiple open pages, and persist across user browser sessions without flashes.
+              </p>
+              <pre style={{
+                background: 'var(--hover-bg)',
+                padding: '16px',
+                borderRadius: '8px',
+                border: '1px solid var(--border-color)',
+                overflowX: 'auto',
+                fontSize: '13px',
+                fontFamily: 'monospace',
+                marginTop: '12px',
+                color: 'var(--text-secondary)'
+              }}>
+{`const toggleTheme = () => {
+  const newTheme = theme === 'light' ? 'dark' : 'light';
+  setTheme(newTheme);
+  document.documentElement.setAttribute('data-theme', newTheme);
+  localStorage.setItem('portfolio-theme', newTheme);
+};`}
+              </pre>
             </div>
-            
-            {activeGalleryTab === 'light' ? (
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '48px' }}>
-                
-                {/* Homepage Section */}
-                <div className="case-study-responsive-showcase">
-                  <div>
-                    <h4 style={{ fontSize: '13px', fontWeight: '600', marginBottom: '8px', letterSpacing: '0.5px', color: 'var(--text-secondary)' }}>HOMEPAGE DESKTOP (LIGHT)</h4>
-                    <div style={{ border: '1px solid var(--border-color)', borderRadius: '6px', overflow: 'hidden' }}>
-                      <img src="/homepage_snapshot.png" alt="Homepage Desktop Light" style={{ width: '100%', display: 'block' }} />
-                    </div>
-                  </div>
-                  <div>
-                    <h4 style={{ fontSize: '13px', fontWeight: '600', marginBottom: '8px', letterSpacing: '0.5px', color: 'var(--text-secondary)' }}>HOMEPAGE MOBILE (LIGHT)</h4>
-                    <div style={{ border: '1px solid var(--border-color)', borderRadius: '12px', overflow: 'hidden', background: 'var(--bg-secondary)', padding: '6px' }}>
-                      <img src="/homepage_mobile_snapshot.png" alt="Homepage Mobile Light" style={{ width: '100%', borderRadius: '8px', display: 'block' }} />
-                    </div>
-                  </div>
-                </div>
+          </section>
 
-                {/* Selected Work Archive */}
-                <div className="case-study-responsive-showcase">
-                  <div>
-                    <h4 style={{ fontSize: '13px', fontWeight: '600', marginBottom: '8px', letterSpacing: '0.5px', color: 'var(--text-secondary)' }}>WORK GRID DESKTOP (LIGHT)</h4>
-                    <div style={{ border: '1px solid var(--border-color)', borderRadius: '6px', overflow: 'hidden' }}>
-                      <img src="/work_snapshot.png" alt="Work Archive Desktop Light" style={{ width: '100%', display: 'block' }} />
-                    </div>
-                  </div>
-                  <div>
-                    <h4 style={{ fontSize: '13px', fontWeight: '600', marginBottom: '8px', letterSpacing: '0.5px', color: 'var(--text-secondary)' }}>WORK GRID MOBILE (LIGHT)</h4>
-                    <div style={{ border: '1px solid var(--border-color)', borderRadius: '12px', overflow: 'hidden', background: 'var(--bg-secondary)', padding: '6px' }}>
-                      <img src="/work_mobile_snapshot.png" alt="Work Archive Mobile Light" style={{ width: '100%', borderRadius: '8px', display: 'block' }} />
-                    </div>
-                  </div>
-                </div>
-
-                {/* About Profile Section */}
-                <div className="case-study-responsive-showcase">
-                  <div>
-                    <h4 style={{ fontSize: '13px', fontWeight: '600', marginBottom: '8px', letterSpacing: '0.5px', color: 'var(--text-secondary)' }}>ABOUT DESKTOP (LIGHT)</h4>
-                    <div style={{ border: '1px solid var(--border-color)', borderRadius: '6px', overflow: 'hidden' }}>
-                      <img src="/about_snapshot.png" alt="About Section Desktop Light" style={{ width: '100%', display: 'block' }} />
-                    </div>
-                  </div>
-                  <div>
-                    <h4 style={{ fontSize: '13px', fontWeight: '600', marginBottom: '8px', letterSpacing: '0.5px', color: 'var(--text-secondary)' }}>ABOUT MOBILE (LIGHT)</h4>
-                    <div style={{ border: '1px solid var(--border-color)', borderRadius: '12px', overflow: 'hidden', background: 'var(--bg-secondary)', padding: '6px' }}>
-                      <img src="/about_mobile_snapshot.png" alt="About Section Mobile Light" style={{ width: '100%', borderRadius: '8px', display: 'block' }} />
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            ) : (
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '48px' }}>
-                
-                {/* Homepage Section */}
-                <div className="case-study-responsive-showcase">
-                  <div>
-                    <h4 style={{ fontSize: '13px', fontWeight: '600', marginBottom: '8px', letterSpacing: '0.5px', color: 'var(--text-secondary)' }}>HOMEPAGE DESKTOP (DARK)</h4>
-                    <div style={{ border: '1px solid var(--border-color)', borderRadius: '6px', overflow: 'hidden' }}>
-                      <img src="/homepage_dark_snapshot.png" alt="Homepage Desktop Dark" style={{ width: '100%', display: 'block' }} />
-                    </div>
-                  </div>
-                  <div>
-                    <h4 style={{ fontSize: '13px', fontWeight: '600', marginBottom: '8px', letterSpacing: '0.5px', color: 'var(--text-secondary)' }}>HOMEPAGE MOBILE (DARK)</h4>
-                    <div style={{ border: '1px solid var(--border-color)', borderRadius: '12px', overflow: 'hidden', background: 'var(--bg-secondary)', padding: '6px' }}>
-                      <img src="/homepage_mobile_dark_snapshot.png" alt="Homepage Mobile Dark" style={{ width: '100%', borderRadius: '8px', display: 'block' }} />
-                    </div>
-                  </div>
-                </div>
-
-                {/* Selected Work Archive */}
-                <div className="case-study-responsive-showcase">
-                  <div>
-                    <h4 style={{ fontSize: '13px', fontWeight: '600', marginBottom: '8px', letterSpacing: '0.5px', color: 'var(--text-secondary)' }}>WORK GRID DESKTOP (DARK)</h4>
-                    <div style={{ border: '1px solid var(--border-color)', borderRadius: '6px', overflow: 'hidden' }}>
-                      <img src="/work_dark_snapshot.png" alt="Work Archive Desktop Dark" style={{ width: '100%', display: 'block' }} />
-                    </div>
-                  </div>
-                  <div>
-                    <h4 style={{ fontSize: '13px', fontWeight: '600', marginBottom: '8px', letterSpacing: '0.5px', color: 'var(--text-secondary)' }}>WORK GRID MOBILE (DARK)</h4>
-                    <div style={{ border: '1px solid var(--border-color)', borderRadius: '12px', overflow: 'hidden', background: 'var(--bg-secondary)', padding: '6px' }}>
-                      <img src="/work_mobile_dark_snapshot.png" alt="Work Archive Mobile Dark" style={{ width: '100%', borderRadius: '8px', display: 'block' }} />
-                    </div>
-                  </div>
-                </div>
-
-                {/* About Profile Section */}
-                <div className="case-study-responsive-showcase">
-                  <div>
-                    <h4 style={{ fontSize: '13px', fontWeight: '600', marginBottom: '8px', letterSpacing: '0.5px', color: 'var(--text-secondary)' }}>ABOUT DESKTOP (DARK)</h4>
-                    <div style={{ border: '1px solid var(--border-color)', borderRadius: '6px', overflow: 'hidden' }}>
-                      <img src="/about_dark_snapshot.png" alt="About Section Desktop Dark" style={{ width: '100%', display: 'block' }} />
-                    </div>
-                  </div>
-                  <div>
-                    <h4 style={{ fontSize: '13px', fontWeight: '600', marginBottom: '8px', letterSpacing: '0.5px', color: 'var(--text-secondary)' }}>ABOUT MOBILE (DARK)</h4>
-                    <div style={{ border: '1px solid var(--border-color)', borderRadius: '12px', overflow: 'hidden', background: 'var(--bg-secondary)', padding: '6px' }}>
-                      <img src="/about_mobile_dark_snapshot.png" alt="About Section Mobile Dark" style={{ width: '100%', borderRadius: '8px', display: 'block' }} />
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            )}
+          {/* Section: Reviews & Continuous Enhancement */}
+          <section className="case-study-section">
+            <h3 className="case-study-section-title">Continuous Feedback & Iterative Reviews</h3>
+            <div className="case-study-body">
+              <p>
+                A high-fidelity portfolio is a living product that thrives on design critique. During this project's development, I actively gathered feedback from reviews. This testing helped us identify areas where the layout didn't feel balanced or the contrast was too harsh.
+              </p>
+              <p>
+                For example, reviews highlighted that the initial hero mockup image aspect-ratio cropped out vital page navigation elements. We responded by changing the cover asset and tuning the box ratio to its native proportions, ensuring full visibility. Similarly, our sound volumes were initially too low; user testing guided us to scale the Web Audio synthesizer gain settings so the click feedback was audible and satisfying.
+              </p>
+              <p>
+                This process of gathering review feedback, refining implementation plans, and making structural adjustments is ongoing. I will continue collecting user feedback, auditing responsiveness, and deploying continuous layout updates to maintain a state-of-the-art interactive experience.
+              </p>
+            </div>
           </section>
 
         </main>
