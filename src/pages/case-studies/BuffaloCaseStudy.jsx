@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import ExternalLinkModal from '../../components/ExternalLinkModal';
 
-export default function AssetsCaseStudy() {
+export default function BuffaloCaseStudy() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
