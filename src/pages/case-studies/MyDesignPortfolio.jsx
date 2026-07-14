@@ -172,61 +172,26 @@ export default function MyDesignPortfolio() {
               </p>
               
               {/* Custom Styled CSS Sitemap */}
-              <div className="custom-sitemap-container" style={{
-                background: 'var(--hover-bg)',
-                borderRadius: '8px',
-                padding: '24px',
-                marginTop: '16px',
-                border: '1px solid var(--border-color)',
-                fontFamily: 'var(--font-sans)'
-              }}>
-                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '20px' }}>
+              <div className="sitemap-container">
+                <div className="sitemap-tree">
                   
                   {/* Root Node */}
-                  <div style={{
-                    background: 'var(--text-primary)',
-                    color: 'var(--bg-primary)',
-                    padding: '8px 16px',
-                    borderRadius: '4px',
-                    fontWeight: '600',
-                    fontSize: '13px',
-                    letterSpacing: '0.5px'
-                  }}>
+                  <div className="sitemap-root">
                     ROOT (/)
                   </div>
                   
-                  <div style={{ width: '2px', height: '20px', background: 'var(--border-color)' }}></div>
+                  <div className="sitemap-line"></div>
                   
                   {/* First Level Children */}
-                  <div style={{ display: 'flex', justifyContent: 'space-around', width: '100%', gap: '12px', flexWrap: 'wrap' }}>
+                  <div className="sitemap-branches">
                     
                     {/* Home Route Block */}
-                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flex: '1', minWidth: '160px' }}>
-                      <div style={{
-                        background: 'var(--bg-primary)',
-                        border: '1px solid var(--border-color)',
-                        padding: '8px 12px',
-                        borderRadius: '4px',
-                        fontWeight: '600',
-                        fontSize: '12px',
-                        textAlign: 'center',
-                        width: '100%'
-                      }}>
+                    <div className="sitemap-branch">
+                      <div className="sitemap-node">
                         Home Page (/)
                       </div>
-                      <div style={{ width: '2px', height: '16px', background: 'var(--border-color)' }}></div>
-                      <div style={{
-                        background: 'var(--hover-bg)',
-                        border: '1px dashed var(--border-color)',
-                        padding: '8px',
-                        borderRadius: '4px',
-                        fontSize: '11px',
-                        color: 'var(--text-secondary)',
-                        width: '100%',
-                        display: 'flex',
-                        flexDirection: 'column',
-                        gap: '4px'
-                      }}>
+                      <div className="sitemap-subline"></div>
+                      <div className="sitemap-leaves">
                         <div>• Overview & Intro</div>
                         <div>• Selected Work Cards</div>
                         <div>• Buffalo Module List</div>
@@ -235,32 +200,12 @@ export default function MyDesignPortfolio() {
                     </div>
 
                     {/* Work Route Block */}
-                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flex: '1', minWidth: '160px' }}>
-                      <div style={{
-                        background: 'var(--bg-primary)',
-                        border: '1px solid var(--border-color)',
-                        padding: '8px 12px',
-                        borderRadius: '4px',
-                        fontWeight: '600',
-                        fontSize: '12px',
-                        textAlign: 'center',
-                        width: '100%'
-                      }}>
+                    <div className="sitemap-branch">
+                      <div className="sitemap-node">
                         Work (/work)
                       </div>
-                      <div style={{ width: '2px', height: '16px', background: 'var(--border-color)' }}></div>
-                      <div style={{
-                        background: 'var(--hover-bg)',
-                        border: '1px dashed var(--border-color)',
-                        padding: '8px',
-                        borderRadius: '4px',
-                        fontSize: '11px',
-                        color: 'var(--text-secondary)',
-                        width: '100%',
-                        display: 'flex',
-                        flexDirection: 'column',
-                        gap: '4px'
-                      }}>
+                      <div className="sitemap-subline"></div>
+                      <div className="sitemap-leaves">
                         <div>• The Buffalo Project</div>
                         <div>• Lagos Revenue Portal</div>
                         <div>• XND V2.0</div>
@@ -271,32 +216,12 @@ export default function MyDesignPortfolio() {
                     </div>
 
                     {/* About Route Block */}
-                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flex: '1', minWidth: '160px' }}>
-                      <div style={{
-                        background: 'var(--bg-primary)',
-                        border: '1px solid var(--border-color)',
-                        padding: '8px 12px',
-                        borderRadius: '4px',
-                        fontWeight: '600',
-                        fontSize: '12px',
-                        textAlign: 'center',
-                        width: '100%'
-                      }}>
+                    <div className="sitemap-branch">
+                      <div className="sitemap-node">
                         About (/about)
                       </div>
-                      <div style={{ width: '2px', height: '16px', background: 'var(--border-color)' }}></div>
-                      <div style={{
-                        background: 'var(--hover-bg)',
-                        border: '1px dashed var(--border-color)',
-                        padding: '8px',
-                        borderRadius: '4px',
-                        fontSize: '11px',
-                        color: 'var(--text-secondary)',
-                        width: '100%',
-                        display: 'flex',
-                        flexDirection: 'column',
-                        gap: '4px'
-                      }}>
+                      <div className="sitemap-subline"></div>
+                      <div className="sitemap-leaves">
                         <div>• Biography Section</div>
                         <div>• Core Methodologies</div>
                         <div>• Tech Stack Matrix</div>
