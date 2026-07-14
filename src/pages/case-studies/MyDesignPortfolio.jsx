@@ -261,10 +261,11 @@ export default function MyDesignPortfolio() {
                         flexDirection: 'column',
                         gap: '4px'
                       }}>
-                        <div>• Assets Case Study</div>
-                        <div>• Ton-Kilometres</div>
+                        <div>• The Buffalo Project</div>
                         <div>• Lagos Revenue Portal</div>
-                        <div>• XND V2.0 & Techpay</div>
+                        <div>• XND V2.0</div>
+                        <div>• Techpay</div>
+                        <div>• Moniehub</div>
                         <div>• Design Portfolio</div>
                       </div>
                     </div>
