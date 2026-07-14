@@ -62,7 +62,7 @@ export default function MyDesignPortfolio() {
               <li><a href="https://workflowy.com" target="_blank" rel="noopener noreferrer" className="case-study-sidebar-link">Workflowy</a><br/><span style={{fontSize:'13px', color:'var(--text-tertiary)'}}>Outlining & Site Map</span></li>
               <li style={{marginTop:'8px'}}><a href="https://whimsical.com" target="_blank" rel="noopener noreferrer" className="case-study-sidebar-link">Whimsical</a><br/><span style={{fontSize:'13px', color:'var(--text-tertiary)'}}>User Flows & Wireframes</span></li>
               <li style={{marginTop:'8px'}}><a href="https://claude.ai" target="_blank" rel="noopener noreferrer" className="case-study-sidebar-link">Claude</a><br/><span style={{fontSize:'13px', color:'var(--text-tertiary)'}}>Architecture Design Partner</span></li>
-              <li style={{marginTop:'8px'}}><a href="https://deepmind.google" target="_blank" rel="noopener noreferrer" className="case-study-sidebar-link">Antigravity</a><br/><span style={{fontSize:'13px', color(--text-tertiary)'}}>AI Pair Programmer & Builder</span></li>
+              <li style={{marginTop:'8px'}}><a href="https://deepmind.google" target="_blank" rel="noopener noreferrer" className="case-study-sidebar-link">Antigravity</a><br/><span style={{fontSize:'13px', color:'var(--text-tertiary)'}}>AI Pair Programmer & Builder</span></li>
             </ul>
           </div>
         </aside>
