@@ -321,7 +321,7 @@ export default function Xnd() {
               <p>
                 <strong>Designing a clean, usable interface is just as important as how it is converted and handled.</strong>
               </p>
-            </div>div>
+            </div>
           </section>
         </main>
       </div>
