@@ -27,7 +27,7 @@ export default function Work() {
       year: '2025',
       category: 'Crypto Exchange — 2025',
       description: 'A secure peer-to-peer exchange platform for safe USDT trading and instant gift card conversion.',
-      image: 'https://framerusercontent.com/images/Fod1vHm21MZAnoFKjzMD7f4lzkI.png?width=1000',
+      image: '/XND_Cover_I.png',
       path: '/selected-work/xnd'
     },
     {
