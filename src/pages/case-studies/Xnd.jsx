@@ -195,7 +195,7 @@ export default function Xnd() {
               </p>
             </div>
             <div className="case-study-gallery" style={{ marginTop: '24px' }}>
-              <div style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', background: '#000', width: '100%' }}>
+              <div style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', width: '100%' }}>
                 <video
                   src="/USDT_Trading.webm"
                   alt="USDT Trading Flow Video Loop"
@@ -208,9 +208,9 @@ export default function Xnd() {
                 />
               </div>
             </div>
-            
+
             <div className="case-study-gallery" style={{ marginTop: '24px' }}>
-              <div style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', background: '#000', width: '100%' }}>
+              <div style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', width: '100%' }}>
                 <video
                   src="/Giftcard_Trading_II.webm"
                   alt="Giftcard Trading Flow Video Loop"
