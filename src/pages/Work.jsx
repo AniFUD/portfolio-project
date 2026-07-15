@@ -27,7 +27,7 @@ export default function Work() {
       year: '2025',
       category: 'Crypto Exchange — 2025',
       description: 'A secure peer-to-peer exchange platform for safe USDT trading and instant gift card conversion.',
-      image: '/XND_Cover_I.png',
+      image: '/XND_Cover_II.png',
       path: '/selected-work/xnd'
     },
     {
@@ -92,7 +92,7 @@ export default function Work() {
                 />
               ) : study.id === 'xnd' ? (
                 <img
-                  src="/XND_Cover_I.png"
+                  src="/XND_Cover_II.png"
                   alt="XND V2.0 Case Study Card Cover"
                   className="work-page-card-image"
                   loading="lazy"
