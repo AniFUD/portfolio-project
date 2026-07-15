@@ -208,7 +208,7 @@ export default function Xnd() {
             <div className="case-study-gallery" style={{ marginTop: '24px' }}>
               <div style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', background: '#000', width: '100%' }}>
                 <video
-                  src="/Giftcard_Trading.webm"
+                  src="/Giftcard_Trading_II.webm"
                   alt="Giftcard Trading Flow Video Loop"
                   className="case-study-gallery-img"
                   autoPlay
