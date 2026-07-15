@@ -98,7 +98,7 @@ export default function Work() {
                   loop
                   muted
                   playsInline
-                  style={{ display: 'block', width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top' }}
+                  style={{ display: 'block', width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }}
                 />
               ) : study.id === 'techpay' ? (
                 <video
