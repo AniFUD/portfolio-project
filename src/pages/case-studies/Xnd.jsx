@@ -193,18 +193,6 @@ export default function Xnd() {
               <p>
                 By displaying clear status indicators, progress tracking, and confirmations at every stage, I reduced transaction anxiety and made every trade state visible to both participants.
               </p>
-            </div>
-            <div className="case-study-gallery">
-              <div className="case-study-gallery-row">
-                <div className="case-study-gallery-img-box">
-                  <img src="https://framerusercontent.com/images/8IhyyPpAiLsISSWPYwQyvm1us.png?width=800" alt="USDT Trading Screen" className="case-study-gallery-img" loading="lazy" />
-                </div>
-                <div className="case-study-gallery-img-box">
-                  <img src="https://framerusercontent.com/images/Zy3eWtegfBrcIJT2H9x4WeCNAZI.png?width=800" alt="P2P Trading flow" className="case-study-gallery-img" loading="lazy" />
-                </div>
-              </div>
-            </div>
-            
             <div className="case-study-gallery" style={{ marginTop: '24px' }}>
               <div style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', background: '#000', width: '100%' }}>
                 <video
