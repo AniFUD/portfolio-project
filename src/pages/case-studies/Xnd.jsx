@@ -193,6 +193,7 @@ export default function Xnd() {
               <p>
                 By displaying clear status indicators, progress tracking, and confirmations at every stage, I reduced transaction anxiety and made every trade state visible to both participants.
               </p>
+            </div>
             <div className="case-study-gallery" style={{ marginTop: '24px' }}>
               <div style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', background: '#000', width: '100%' }}>
                 <video
