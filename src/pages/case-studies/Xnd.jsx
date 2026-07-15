@@ -111,14 +111,46 @@ export default function Xnd() {
                 Key updates included a streamlined multi-currency checkout flow for USDT and gift card swaps, and a directory for managing merchant listings. I also introduced a verified application flow to guide merchants onto the platform’s refreshed design language, tied together by a sharper and vibrant brand style.
               </p>
             </div>
-          </section>
-
-          {/* Galleries for Modules */}
+          </section>          {/* Section: User Roles & Ecosystem Mapping */}
           <section className="case-study-section">
-            <h3 className="case-study-section-title">Dashboard</h3>
+            <h3 className="case-study-section-title">User Roles & Ecosystem Mapping</h3>
             <div className="case-study-body">
               <p>
-                The dashboard became the anchor of the user's trading journey. I redesigned it to present an overview of transaction histories, active wallet balances, and current exchange rates in a clean layout. Prominent actions to buy, sell, and deposit assets ensure users feel in control of their portfolios.
+                To design a secure P2P trading ecosystem, I first mapped out the distinct actors on XND and structured the platform around their operational goals. Through user interviews and workflow audits, I identified that the platform needed to cater to three primary roles, each requiring customized functional privileges and interfaces.
+              </p>
+              
+              <h4 style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-primary)' }}>1. Merchants (Liquidity Providers)</h4>
+              <p>
+                Merchants act as the market makers on the platform, establishing inventory and publishing trade listings that other users execute against. To minimize cognitive overload, simplify compliance, and prevent execution errors, I separated merchants into two distinct profiles:
+              </p>
+              <ul>
+                <li>
+                  <strong>Gift Card Merchant:</strong> Can only create Gift Card order listings, manage gift card inventory, and complete trade requests initiated by users. They have no access to cryptocurrency listings, preventing accidental asset mixups.
+                </li>
+                <li>
+                  <strong>USDT Merchant:</strong> Can only create USDT order listings, manage USDT liquidity, and facilitate direct P2P order execution. They manage cryptocurrency holdings and handle direct fiat payment confirmations.
+                </li>
+              </ul>
+              <p>
+                I designed this separation to improve operational clarity, minimize errors, simplify onboarding, and strengthen platform governance.
+              </p>
+
+              <h4 style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-primary)' }}>2. Normal Users (Retail Traders)</h4>
+              <p>
+                Normal users represent the retail customer segment. Unlike merchants, users consume listings rather than create them. They can browse all active USDT and Gift Card listings in the open marketplace, choose which verified merchant to trade with, initiate transactions, submit proof of payments, and track their trade lifecycle from initiation to final release.
+              </p>
+            </div>
+          </section>
+
+          {/* Section: Dashboard Architecture */}
+          <section className="case-study-section">
+            <h3 className="case-study-section-title">Dashboard Architecture</h3>
+            <div className="case-study-body">
+              <p>
+                Instead of forcing all users into a generic, single-system interface, I designed two distinct dashboards tailored to the specific goals of each persona. Role-based permissions reduce complexity by keeping irrelevant data out of sight.
+              </p>
+              <p>
+                <strong>The Merchant Dashboard</strong> is optimized for operational speed and liquidity management. It prioritizes order listing controls, active trade requests, wallet balance indicators, aggregate earnings, transaction history, and real-time alerts. This dashboard gives merchants the performance metrics and speed needed to manage assets and respond to customer requests instantly.
               </p>
             </div>
             <div className="case-study-gallery">
@@ -133,16 +165,33 @@ export default function Xnd() {
             </div>
             <div className="case-study-body" style={{ marginTop: '24px' }}>
               <p>
-                The seller's dashboard differs from the merchant dashboard in that the seller only sees a list of order listings they can sell their USDT or gift cards to, whereas the merchant dashboard shows comprehensive merchant analytics as well as the specific order listings they have created.
+                <strong>The User Dashboard</strong>, on the other hand, centers entirely around trading activities. It displays active listings, open trades, transaction history, and simple wallet actions (deposits and withdrawals) in a layout that minimizes friction while helping users easily discover and complete trades.
               </p>
             </div>
           </section>
 
+          {/* Section: P2P Trading Process */}
           <section className="case-study-section">
-            <h3 className="case-study-section-title">USDT Trading</h3>
+            <h3 className="case-study-section-title">P2P Trading & Escrow Process</h3>
             <div className="case-study-body">
               <p>
-                USDT peer-to-peer trading is at the heart of the platform, requiring a high-fidelity checkout experience. The flow was streamlined to make local bank payments and escrow releases seamless, protecting both buyers and sellers from payment fraud.
+                USDT peer-to-peer trading is at the heart of the platform, requiring a high-fidelity checkout experience. XND functions as a trusted intermediary and automated adjudicator rather than a direct exchange. I designed an 11-step escrow workflow that balances user trust, platform security, and operational efficiency:
+              </p>
+              <ol style={{ paddingLeft: '20px', display: 'flex', flexDirection: 'column', gap: '8px', margin: '16px 0', fontSize: '14px', lineHeight: '1.6', color: 'var(--text-secondary)' }}>
+                <li><strong>List Creation:</strong> A verified merchant publishes an order listing with rates and limits.</li>
+                <li><strong>Marketplace Exposure:</strong> The listing becomes visible to all eligible users in the marketplace.</li>
+                <li><strong>Listing Selection:</strong> A user reviews listings and selects a verified merchant.</li>
+                <li><strong>Trade Initiation:</strong> The user enters the trade amount and starts the session.</li>
+                <li><strong>Escrow Lock:</strong> The system automatically locks the merchant's assets in escrow to prevent double-spending.</li>
+                <li><strong>Execution Step:</strong> Both parties perform their required actions (user uploads payment proof, merchant validates payment receipt).</li>
+                <li><strong>Condition Audit:</strong> The platform verifies that transaction preconditions have been met.</li>
+                <li><strong>Asset Protection:</strong> Throughout the verification window, the assets remain frozen inside the escrow container.</li>
+                <li><strong>Escrow Release:</strong> Once receipt is verified, the system automatically releases the escrowed assets.</li>
+                <li><strong>Trade Completion:</strong> The trade is completed, transferring assets to the buyer's wallet.</li>
+                <li><strong>Rating & Auditing:</strong> Ratings, transaction history, and system records are updated.</li>
+              </ol>
+              <p>
+                By displaying clear status indicators, progress tracking, and confirmations at every stage, I reduced transaction anxiety and made every trade state visible to both participants.
               </p>
             </div>
             <div className="case-study-gallery">
@@ -157,6 +206,7 @@ export default function Xnd() {
             </div>
           </section>
 
+          {/* Section: Gift Card Conversion */}
           <section className="case-study-section">
             <h3 className="case-study-section-title">Gift Card Conversion</h3>
             <div className="case-study-body">
@@ -176,6 +226,7 @@ export default function Xnd() {
             </div>
           </section>
 
+          {/* Section: Merchant Portal */}
           <section className="case-study-section">
             <h3 className="case-study-section-title">Merchant Portal</h3>
             <div className="case-study-body">
@@ -192,6 +243,55 @@ export default function Xnd() {
                   <img src="https://framerusercontent.com/images/q8wCHzy7ByMHlwT83x9bRYalJM.png?width=800" alt="Merchant Directory Table" className="case-study-gallery-img" loading="lazy" />
                 </div>
               </div>
+            </div>
+          </section>
+
+          {/* Section: Admin Portal */}
+          <section className="case-study-section">
+            <h3 className="case-study-section-title">Admin Portal & Governance</h3>
+            <div className="case-study-body">
+              <p>
+                A healthy P2P marketplace requires robust administrative oversight. I designed a modular Admin Portal that provides platform administrators with the tools to manage ecosystem health, resolve disputes, and maintain security:
+              </p>
+              
+              <h4 style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-primary)' }}>1. Admin Dashboard</h4>
+              <p>
+                Consolidates platform analytics, revenue metrics, active user trends, trade volume, and operational health in a centralized panel.
+              </p>
+
+              <h4 style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-primary)' }}>2. User Management</h4>
+              <p>
+                Enables administrators to inspect user accounts, verify new merchants, review KYC verification materials, and handle suspensions or permissions.
+              </p>
+
+              <h4 style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-primary)' }}>3. Transactions Auditing</h4>
+              <p>
+                Provides oversight of completed and active transactions, enabling admins to investigate disputes and audit ledger histories.
+              </p>
+
+              <h4 style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-primary)' }}>4. Wallet Management</h4>
+              <p>
+                Supports monitoring of system hot/cold wallets, balance adjustments, funding flows, and withdrawal verification.
+              </p>
+
+              <h4 style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-primary)' }}>5. Trade Management</h4>
+              <p>
+                Allows active trade monitoring, intervention in disputed transactions, and escrow control to release or return funds.
+              </p>
+
+              <h4 style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-primary)' }}>6. Customer Support</h4>
+              <p>
+                Integrates ticket queues, merchant inquiries, customer complaints, and support escalations into a structured workflow.
+              </p>
+
+              <h4 style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-primary)' }}>7. Platform Settings</h4>
+              <p>
+                Controls system parameters, including trading limits, transactional fees, notification configurations, and security policies.
+              </p>
+              
+              <p style={{ marginTop: '16px' }}>
+                Separating operational management into these modules improves administrative efficiency, makes compliance audits easier, and ensures governance doesn't disrupt the trading experience.
+              </p>
             </div>
           </section>
 
@@ -213,7 +313,7 @@ export default function Xnd() {
                 <strong>Designing trust into cryptocurrency transactions requires absolute transparency.</strong> Clear progress steps and escrow alerts work best when they feel like helpful instructions rather than friction.
               </p>
               <p>
-                <strong>Sometimes skipping wireframes to jump straight into high-fidelity layout tests saved time and allowed us to iterate directly with engineering requirements.</strong>
+                <strong>Sometimes skipping wireframes to jump straight into high-fidelity layout tests saved time and allowed me to iterate directly with engineering requirements.</strong>
               </p>
               <p>
                 <strong>A product that works well today but is architected to scale tomorrow is essential when handling financial transactions, keeping merchant conversion rates high.</strong>
@@ -221,8 +321,7 @@ export default function Xnd() {
               <p>
                 <strong>Designing a clean, usable interface is just as important as how it is converted and handled.</strong>
               </p>
-
-            </div>
+            </div>div>
           </section>
         </main>
       </div>
