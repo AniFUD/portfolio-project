@@ -195,17 +195,31 @@ export default function Xnd() {
               </p>
             </div>
             <div className="case-study-gallery" style={{ marginTop: '24px' }}>
-              <div style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', width: '100%' }}>
-                <video
-                  src="/Giftcard_Trading_II.webm"
-                  alt="Giftcard Trading Flow Video Loop"
-                  className="case-study-gallery-img"
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                  style={{ display: 'block', width: '100%', height: '100%', objectFit: 'cover' }}
-                />
+              <div className="case-study-gallery-row">
+                <div className="case-study-gallery-img-box" style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', background: '#000' }}>
+                  <video
+                    src="/USDT_Trading.webm"
+                    alt="USDT Trading Flow Video Loop"
+                    className="case-study-gallery-img"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    style={{ display: 'block', width: '100%', height: '100%', objectFit: 'cover' }}
+                  />
+                </div>
+                <div className="case-study-gallery-img-box" style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', background: '#000' }}>
+                  <video
+                    src="/Giftcard_Trading_II.webm"
+                    alt="Giftcard Trading Flow Video Loop"
+                    className="case-study-gallery-img"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    style={{ display: 'block', width: '100%', height: '100%', objectFit: 'cover' }}
+                  />
+                </div>
               </div>
             </div>
           </section>
