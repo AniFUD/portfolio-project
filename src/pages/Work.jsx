@@ -18,7 +18,7 @@ export default function Work() {
       year: '2024',
       category: 'Govtech & Finance — 2024',
       description: 'Designing a unified digital gateway for taxpayer education, tax calculations, and revenue system access in Lagos State.',
-      image: 'https://framerusercontent.com/images/3CAADiyJJxYt0qsuiLHnyN6vcc.png?width=1000',
+      image: '/LRP_Cover_Motion.webm',
       path: '/selected-work/lagos-revenue-portal'
     },
     {
@@ -82,7 +82,7 @@ export default function Work() {
                 />
               ) : study.id === 'lagos-revenue-portal' ? (
                 <video
-                  src="/LRP Thumbnail.webm"
+                  src="/LRP_Cover_Motion.webm"
                   className="work-page-card-image"
                   autoPlay
                   loop
