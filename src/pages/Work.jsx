@@ -91,11 +91,13 @@ export default function Work() {
                   style={{ display: 'block', width: '100%', height: '100%', objectFit: 'cover' }}
                 />
               ) : study.id === 'xnd' ? (
-                <img
-                  src="/XND_Cover_II.png"
-                  alt="XND V2.0 Case Study Card Cover"
+                <video
+                  src="/XND_Cover_II.webm"
                   className="work-page-card-image"
-                  loading="lazy"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
                   style={{ display: 'block', width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top' }}
                 />
               ) : study.id === 'techpay' ? (
