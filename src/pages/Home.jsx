@@ -209,7 +209,7 @@ export default function Home() {
           <Link to="/selected-work/xnd" className="work-grid-card image-card">
             <div className="card-img-container">
               <video
-                src="/XND Thumbnail.webm"
+                src="/XND_Cover_II.webm"
                 className="card-img"
                 autoPlay
                 loop
