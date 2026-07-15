@@ -190,7 +190,7 @@ export default function Home() {
           <Link to="/selected-work/lagos-revenue-portal" className="work-grid-card image-card">
             <div className="card-img-container">
               <video
-                src="/LRP Thumbnail.webm"
+                src="/LRP_Cover_Motion.webm"
                 className="card-img"
                 autoPlay
                 loop
