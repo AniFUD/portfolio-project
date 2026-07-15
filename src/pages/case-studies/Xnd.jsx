@@ -204,6 +204,21 @@ export default function Xnd() {
                 </div>
               </div>
             </div>
+            
+            <div className="case-study-gallery" style={{ marginTop: '24px' }}>
+              <div style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', background: '#000', width: '100%' }}>
+                <video
+                  src="/Giftcard_Trading.webm"
+                  alt="Giftcard Trading Flow Video Loop"
+                  className="case-study-gallery-img"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  style={{ display: 'block', width: '100%', height: '100%', objectFit: 'cover' }}
+                />
+              </div>
+            </div>
           </section>
 
           {/* Section: Gift Card Conversion */}
