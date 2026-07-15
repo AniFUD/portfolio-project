@@ -118,7 +118,7 @@ export default function Xnd() {
               <p>
                 To design a secure P2P trading ecosystem, I first mapped out the distinct actors on XND and structured the platform around their operational goals. Through user interviews and workflow audits, I identified that the platform needed to cater to three primary roles, each requiring customized functional privileges and interfaces.
               </p>
-              
+
               <h4 style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-primary)' }}>1. Merchants (Liquidity Providers)</h4>
               <p>
                 Merchants act as the market makers on the platform, establishing inventory and publishing trade listings that other users execute against. To minimize cognitive overload, simplify compliance, and prevent execution errors, I separated merchants into two distinct profiles:
@@ -195,7 +195,7 @@ export default function Xnd() {
               </p>
             </div>
             <div className="case-study-gallery" style={{ marginTop: '24px' }}>
-              <div style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', background: '#000', width: '100%' }}>
+              <div style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', background: '#a2a2a2ff', width: '100%' }}>
                 <video
                   src="/Giftcard_Trading_II.webm"
                   alt="Giftcard Trading Flow Video Loop"
@@ -257,7 +257,7 @@ export default function Xnd() {
               <p>
                 A healthy P2P marketplace requires robust administrative oversight. I designed a modular Admin Portal that provides platform administrators with the tools to manage ecosystem health, resolve disputes, and maintain security:
               </p>
-              
+
               <h4 style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-primary)' }}>1. Admin Dashboard</h4>
               <p>
                 Consolidates platform analytics, revenue metrics, active user trends, trade volume, and operational health in a centralized panel.
@@ -292,7 +292,7 @@ export default function Xnd() {
               <p>
                 Controls system parameters, including trading limits, transactional fees, notification configurations, and security policies.
               </p>
-              
+
               <p style={{ marginTop: '16px' }}>
                 Separating operational management into these modules improves administrative efficiency, makes compliance audits easier, and ensures governance doesn't disrupt the trading experience.
               </p>
