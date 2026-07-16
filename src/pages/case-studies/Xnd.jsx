@@ -233,16 +233,6 @@ export default function Xnd() {
                 Converting gift cards to cash was redesigned as a fast, three-step wizard. Users select their card brand, input details, and view current rates immediately. Status updates (Pending, Verifying, Paid) keep traders informed throughout.
               </p>
             </div>
-            <div className="case-study-gallery">
-              <div className="case-study-gallery-row">
-                <div className="case-study-gallery-img-box">
-                  <img src="https://framerusercontent.com/images/zNhZ9l9e9WDvRe6RqdrhabPZtI.png?width=800" alt="Gift Card list Screen" className="case-study-gallery-img" loading="lazy" />
-                </div>
-                <div className="case-study-gallery-img-box">
-                  <img src="https://framerusercontent.com/images/jWsteJOBQQTEC88YKgXlnrniPvI.png?width=800" alt="Conversion Setup Screen" className="case-study-gallery-img" loading="lazy" />
-                </div>
-              </div>
-            </div>
           </section>
 
           {/* Section: Merchant Portal */}
@@ -252,16 +242,6 @@ export default function Xnd() {
               <p>
                 Verified merchants operate as the backbone of the P2P system. The merchant directory and application flows allow trust verification badges to display prominently on listings, letting sellers select credible buyers with confidence.
               </p>
-            </div>
-            <div className="case-study-gallery">
-              <div className="case-study-gallery-row">
-                <div className="case-study-gallery-img-box">
-                  <img src="https://framerusercontent.com/images/2T3QZQI9J1StOMPEInLr5gTYVzk.png?width=800" alt="Merchant Details Screen" className="case-study-gallery-img" loading="lazy" />
-                </div>
-                <div className="case-study-gallery-img-box">
-                  <img src="https://framerusercontent.com/images/q8wCHzy7ByMHlwT83x9bRYalJM.png?width=800" alt="Merchant Directory Table" className="case-study-gallery-img" loading="lazy" />
-                </div>
-              </div>
             </div>
           </section>
 
