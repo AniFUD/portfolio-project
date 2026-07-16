@@ -208,7 +208,7 @@ export default function MyDesignPortfolio() {
                       <div className="sitemap-leaves">
                         <div>• The Buffalo Project</div>
                         <div>• Lagos Revenue Portal</div>
-                        <div>• XND V2.0</div>
+                        <div>• XND</div>
                         <div>• Techpay</div>
                         <div>• Moniehub</div>
                         <div>• Design Portfolio</div>
