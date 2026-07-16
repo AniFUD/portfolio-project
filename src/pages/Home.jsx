@@ -205,7 +205,7 @@ export default function Home() {
             </div>
           </Link>
 
-          {/* Card 4: XND V2.0 */}
+          {/* Card 4: XND */}
           <Link to="/selected-work/xnd" className="work-grid-card image-card">
             <div className="card-img-container">
               <video
@@ -219,7 +219,7 @@ export default function Home() {
               />
             </div>
             <div className="card-info">
-              <h3 className="card-title">XND V2.0 <span className="card-year">2025</span></h3>
+              <h3 className="card-title">XND <span className="card-year">2025</span></h3>
               <p className="card-desc">A secure peer-to-peer exchange platform for safe USDT trading and instant gift card conversion.</p>
             </div>
           </Link>
