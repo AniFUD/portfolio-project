@@ -120,7 +120,7 @@ export default function Home() {
             </div>
             <div className="card-info">
               <h3 className="card-title">The Buffalo Project <span className="card-year">2026</span></h3>
-              <p className="card-desc">Custom enterprise platform for ABC x Trustpointly's business operations.</p>
+              <p className="card-desc">Custom enterprise platform for tax administration and revenue management.</p>
             </div>
           </Link>
 
