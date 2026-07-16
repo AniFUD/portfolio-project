@@ -7,7 +7,7 @@ export default function Work() {
       id: 'assets',
       title: 'The Buffalo Project',
       year: '2026',
-      category: 'Tax Administration — 2026',
+      category: 'Tax Administration',
       description: "Custom enterprise platform for tax administration and revenue management.",
       image: '/buffalo_cover.webm',
       path: '/selected-work/assets'
@@ -16,7 +16,7 @@ export default function Work() {
       id: 'lagos-revenue-portal',
       title: 'Lagos Revenue Portal',
       year: '2024',
-      category: 'Govtech & Finance — 2024',
+      category: 'Govtech & Finance',
       description: 'Digital gateway for taxpayer education, tax calculations, and revenue system access in Lagos State.',
       image: '/LRP_Cover_Motion.webm',
       path: '/selected-work/lagos-revenue-portal'
@@ -25,7 +25,7 @@ export default function Work() {
       id: 'xnd',
       title: 'XND V2.0',
       year: '2025',
-      category: 'Crypto Exchange — 2025',
+      category: 'Crypto Exchange',
       description: 'A secure peer-to-peer exchange platform for safe USDT trading and instant gift card conversion.',
       image: '/XND_Cover_II.webm',
       path: '/selected-work/xnd'
@@ -34,7 +34,7 @@ export default function Work() {
       id: 'techpay',
       title: 'Techpay',
       year: '2025',
-      category: 'Fintech & Payments — 2025',
+      category: 'Fintech & Payments',
       description: 'A modern digital payment platform simplifying transaction workflows and business payouts.',
       image: '/Techpay.png',
       path: '/selected-work/techpay'
@@ -43,7 +43,7 @@ export default function Work() {
       id: 'moniehub',
       title: 'Moniehub',
       year: '2025',
-      category: 'Fintech & Multi-Asset Cards — 2025',
+      category: 'Fintech & Multi-Asset Cards',
       description: 'A unified digital finance wallet bridging fiat accounts, crypto assets, and virtual card issuance.',
       image: '/moniehub_cover_2.png',
       path: '/selected-work/moniehub'
@@ -52,7 +52,7 @@ export default function Work() {
       id: 'my-design-portfolio',
       title: 'Design Portfolio',
       year: '2026',
-      category: 'Product Design & AI Engineering — 2026',
+      category: 'Product Design & AI Engineering',
       description: 'Architecting a living digital archive through AI-assisted product design and front-end engineering.',
       image: '/homepage_snapshot.png',
       path: '/selected-work/my-design-portfolio'
