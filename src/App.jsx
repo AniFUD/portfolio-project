@@ -101,8 +101,6 @@ export default function App() {
           lastHoveredElement = hoverable;
           playTickSound();
         }
-      } else {
-        lastHoveredElement = null;
       }
     };
 
