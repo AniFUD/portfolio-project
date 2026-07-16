@@ -153,20 +153,20 @@ export default function Xnd() {
                 <strong>The Merchant Dashboard</strong> is optimized for operational speed and liquidity management. It prioritizes order listing controls, active trade requests, wallet balance indicators, aggregate earnings, transaction history, and real-time alerts. This dashboard gives merchants the performance metrics and speed needed to manage assets and respond to customer requests instantly.
               </p>
             </div>
-            <div className="case-study-gallery">
-              <div className="case-study-gallery-row">
-                <div className="case-study-gallery-img-box">
-                  <img src="/XND_Dashboard_Merchant.png" alt="Merchant Dashboard Mockup" className="case-study-gallery-img" loading="lazy" />
-                </div>
-                <div className="case-study-gallery-img-box">
-                  <img src="/XND_Dashboard_Seller.png" alt="Seller Dashboard Mockup" className="case-study-gallery-img" loading="lazy" />
-                </div>
+            <div className="case-study-gallery" style={{ marginTop: '16px' }}>
+              <div className="case-study-gallery-img-box full" style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', width: '100%' }}>
+                <img src="/XND_Dashboard_Merchant.png" alt="Merchant Dashboard Mockup" className="case-study-gallery-img" loading="lazy" />
               </div>
             </div>
             <div className="case-study-body" style={{ marginTop: '24px' }}>
               <p>
                 <strong>The User Dashboard</strong>, on the other hand, centers entirely around trading activities. It displays active listings, open trades, transaction history, and simple wallet actions (deposits and withdrawals) in a layout that minimizes friction while helping users easily discover and complete trades.
               </p>
+            </div>
+            <div className="case-study-gallery" style={{ marginTop: '16px' }}>
+              <div className="case-study-gallery-img-box full" style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', width: '100%' }}>
+                <img src="/XND_Dashboard_Seller.png" alt="User Dashboard Mockup" className="case-study-gallery-img" loading="lazy" />
+              </div>
             </div>
           </section>
 
