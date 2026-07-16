@@ -23,7 +23,7 @@ export default function Work() {
     },
     {
       id: 'xnd',
-      title: 'XND V2.0',
+      title: 'XND',
       year: '2025',
       category: 'Giftcard & Crypto Exchange',
       description: 'A secure peer-to-peer exchange platform for safe USDT trading and instant gift card conversion.',
