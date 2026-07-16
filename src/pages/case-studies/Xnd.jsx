@@ -287,12 +287,9 @@ export default function Xnd() {
               <p>
                 Enables administrators to inspect user accounts, verify new merchants, review KYC verification materials, and handle suspensions or permissions.
               </p>
-              <div className="case-study-gallery" style={{ marginTop: '16px', marginBottom: '24px', display: 'flex', flexDirection: 'column', gap: '20px' }}>
+              <div className="case-study-gallery" style={{ marginTop: '16px', marginBottom: '24px' }}>
                 <div style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', width: '100%' }}>
                   <img src="/Admin_Portal/2.png" alt="User Management Directory" className="case-study-gallery-img" loading="lazy" style={{ display: 'block', width: '100%', height: 'auto' }} />
-                </div>
-                <div style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', width: '100%' }}>
-                  <img src="/Admin_Portal/3.png" alt="User Management Details & Verification" className="case-study-gallery-img" loading="lazy" style={{ display: 'block', width: '100%', height: 'auto' }} />
                 </div>
               </div>
 
