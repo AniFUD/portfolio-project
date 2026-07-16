@@ -17,7 +17,7 @@ export default function Work() {
       title: 'Lagos Revenue Portal',
       year: '2024',
       category: 'Govtech & Finance — 2024',
-      description: 'Designing a unified digital gateway for taxpayer education, tax calculations, and revenue system access in Lagos State.',
+      description: 'Digital gateway for taxpayer education, tax calculations, and revenue system access in Lagos State.',
       image: '/LRP_Cover_Motion.webm',
       path: '/selected-work/lagos-revenue-portal'
     },
