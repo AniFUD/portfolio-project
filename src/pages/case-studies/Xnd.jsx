@@ -154,8 +154,8 @@ export default function Xnd() {
               </p>
             </div>
             <div className="case-study-gallery" style={{ marginTop: '16px' }}>
-              <div className="case-study-gallery-img-box full" style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', width: '100%' }}>
-                <img src="/XND_Dashboard_Merchant.png" alt="Merchant Dashboard Mockup" className="case-study-gallery-img" loading="lazy" />
+              <div style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', width: '100%' }}>
+                <img src="/XND_Dashboard_Merchant.png" alt="Merchant Dashboard Mockup" style={{ display: 'block', width: '100%', height: 'auto' }} loading="lazy" />
               </div>
             </div>
             <div className="case-study-body" style={{ marginTop: '24px' }}>
@@ -164,8 +164,8 @@ export default function Xnd() {
               </p>
             </div>
             <div className="case-study-gallery" style={{ marginTop: '16px' }}>
-              <div className="case-study-gallery-img-box full" style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', width: '100%' }}>
-                <img src="/XND_Dashboard_Seller.png" alt="User Dashboard Mockup" className="case-study-gallery-img" loading="lazy" />
+              <div style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', width: '100%' }}>
+                <img src="/XND_Dashboard_Seller.png" alt="User Dashboard Mockup" style={{ display: 'block', width: '100%', height: 'auto' }} loading="lazy" />
               </div>
             </div>
           </section>
