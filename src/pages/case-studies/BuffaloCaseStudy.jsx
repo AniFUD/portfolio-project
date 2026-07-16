@@ -105,7 +105,7 @@ export default function BuffaloCaseStudy() {
                 The Buffalo Project is a centralized operations and logistics management system designed for ABC x Trustpointly. It unifies high-scale industrial workflows—including real-time asset lifecycle tracking, dispatching routes, operator logs, and composite logistics metrics—into a unified digital dashboard.
               </p>
               <p>
-                As a primary product designer on this initiative, I worked alongside a cross-functional team of engineering, product management, and business analytics specialists to establish the foundational information architecture and UI systems.
+                As a product designer on this initiative, I worked alongside a cross-functional team of engineering, product management, and business analytics specialists to establish the foundational information architecture and UI systems.
               </p>
               <p style={{ marginTop: '24px', fontWeight: '600', color: 'var(--text-primary)' }}>
                 🚀 This case study is scheduled to be updated with comprehensive visual modules and detailed design process summaries soon.
