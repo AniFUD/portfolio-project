@@ -136,7 +136,23 @@ export default function Home() {
                       to={item.path}
                       className={`list-card-item ${isLastItem ? 'last' : ''}`}
                     >
-                      <span className="list-item-name">{item.name}</span>
+                      <span className="list-item-name">
+                        <svg
+                          className="list-item-hover-icon"
+                          width="12"
+                          height="12"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <polyline points="15 10 20 15 15 20"></polyline>
+                          <path d="M4 4v7a4 4 0 0 0 4 4h12"></path>
+                        </svg>
+                        {item.name}
+                      </span>
                       <span className="list-item-year">
                         <span className="year-val">{item.year}</span>
                         <span className="coming-soon-val">COMING SOON</span>
@@ -149,7 +165,23 @@ export default function Home() {
                       key={item.id}
                       className={`list-card-item disabled ${isLastItem ? 'last' : ''}`}
                     >
-                      <span className="list-item-name">{item.name}</span>
+                      <span className="list-item-name">
+                        <svg
+                          className="list-item-hover-icon"
+                          width="12"
+                          height="12"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <polyline points="15 10 20 15 15 20"></polyline>
+                          <path d="M4 4v7a4 4 0 0 0 4 4h12"></path>
+                        </svg>
+                        {item.name}
+                      </span>
                       <span className="list-item-year">
                         <span className="year-val">{item.year}</span>
                         <span className="coming-soon-val">COMING SOON</span>
