@@ -28,7 +28,7 @@ export default function BuffaloCaseStudy() {
       {/* Case Study Header */}
       <header className="case-study-title-block">
         <span className="case-study-eyebrow" style={{ color: '#7e7e7eff' }}>Enterprise Operations Platform</span>
-        <h1 className="case-study-title">The Buffalo Project: Custom enterprise resource and logistics workflow tracker</h1>
+        <h1 className="case-study-title">The Buffalo Project: Redefining tax administration & revenue management systems</h1>
       </header>
 
       {/* Hero Image */}
