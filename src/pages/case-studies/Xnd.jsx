@@ -277,26 +277,57 @@ export default function Xnd() {
               <p>
                 Consolidates platform analytics, revenue metrics, active user trends, trade volume, and operational health in a centralized panel.
               </p>
+              <div className="case-study-gallery" style={{ marginTop: '16px', marginBottom: '24px' }}>
+                <div style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', background: '#000', width: '100%' }}>
+                  <img src="/Admin_Portal/1.png" alt="Admin Dashboard" className="case-study-gallery-img" loading="lazy" style={{ display: 'block', width: '100%', height: 'auto' }} />
+                </div>
+              </div>
 
               <h4 style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-primary)' }}>2. User Management</h4>
               <p>
                 Enables administrators to inspect user accounts, verify new merchants, review KYC verification materials, and handle suspensions or permissions.
               </p>
+              <div className="case-study-gallery" style={{ marginTop: '16px', marginBottom: '24px', display: 'flex', flexDirection: 'column', gap: '20px' }}>
+                <div style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', background: '#000', width: '100%' }}>
+                  <img src="/Admin_Portal/2.png" alt="User Management Directory" className="case-study-gallery-img" loading="lazy" style={{ display: 'block', width: '100%', height: 'auto' }} />
+                </div>
+                <div style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', background: '#000', width: '100%' }}>
+                  <img src="/Admin_Portal/3.png" alt="User Management Details & Verification" className="case-study-gallery-img" loading="lazy" style={{ display: 'block', width: '100%', height: 'auto' }} />
+                </div>
+              </div>
 
               <h4 style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-primary)' }}>3. Transactions Auditing</h4>
               <p>
                 Provides oversight of completed and active transactions, enabling admins to investigate disputes and audit ledger histories.
               </p>
+              <div className="case-study-gallery" style={{ marginTop: '16px', marginBottom: '24px', display: 'flex', flexDirection: 'column', gap: '20px' }}>
+                <div style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', background: '#000', width: '100%' }}>
+                  <img src="/Admin_Portal/4.png" alt="Transactions Ledger View" className="case-study-gallery-img" loading="lazy" style={{ display: 'block', width: '100%', height: 'auto' }} />
+                </div>
+                <div style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', background: '#000', width: '100%' }}>
+                  <img src="/Admin_Portal/5.png" alt="Transaction Details Audit" className="case-study-gallery-img" loading="lazy" style={{ display: 'block', width: '100%', height: 'auto' }} />
+                </div>
+              </div>
 
               <h4 style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-primary)' }}>4. Wallet Management</h4>
               <p>
                 Supports monitoring of system hot/cold wallets, balance adjustments, funding flows, and withdrawal verification.
               </p>
+              <div className="case-study-gallery" style={{ marginTop: '16px', marginBottom: '24px' }}>
+                <div style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', background: '#000', width: '100%' }}>
+                  <img src="/Admin_Portal/8.png" alt="Wallet Management Overview" className="case-study-gallery-img" loading="lazy" style={{ display: 'block', width: '100%', height: 'auto' }} />
+                </div>
+              </div>
 
               <h4 style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-primary)' }}>5. Trade Management</h4>
               <p>
                 Allows active trade monitoring, intervention in disputed transactions, and escrow control to release or return funds.
               </p>
+              <div className="case-study-gallery" style={{ marginTop: '16px', marginBottom: '24px' }}>
+                <div style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', background: '#000', width: '100%' }}>
+                  <img src="/Admin_Portal/6.png" alt="Trade Management & Escrow Oversight" className="case-study-gallery-img" loading="lazy" style={{ display: 'block', width: '100%', height: 'auto' }} />
+                </div>
+              </div>
 
               <h4 style={{ marginTop: '20px', fontSize: '15px', color: 'var(--text-primary)' }}>6. Customer Support</h4>
               <p>
@@ -307,6 +338,11 @@ export default function Xnd() {
               <p>
                 Controls system parameters, including trading limits, transactional fees, notification configurations, and security policies.
               </p>
+              <div className="case-study-gallery" style={{ marginTop: '16px', marginBottom: '24px' }}>
+                <div style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', background: '#000', width: '100%' }}>
+                  <img src="/Admin_Portal/7.png" alt="Platform Settings & Policies" className="case-study-gallery-img" loading="lazy" style={{ display: 'block', width: '100%', height: 'auto' }} />
+                </div>
+              </div>
 
               <p style={{ marginTop: '16px' }}>
                 Separating operational management into these modules improves administrative efficiency, makes compliance audits easier, and ensures governance doesn't disrupt the trading experience.
