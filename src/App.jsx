@@ -30,7 +30,7 @@ const playTickSound = () => {
     osc.frequency.setValueAtTime(1000, audioCtx.currentTime);
     osc.frequency.exponentialRampToValueAtTime(600, audioCtx.currentTime + 0.08);
     
-    gainNode.gain.setValueAtTime(0.04, audioCtx.currentTime);
+    gainNode.gain.setValueAtTime(0.02, audioCtx.currentTime);
     gainNode.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + 0.08);
     
     osc.connect(gainNode);
