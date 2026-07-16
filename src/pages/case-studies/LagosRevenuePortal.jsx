@@ -35,7 +35,7 @@ export default function LagosRevenuePortal() {
       {/* Hero Image */}
       <div className="case-study-hero-img-box">
         <img 
-          src="https://framerusercontent.com/images/1K5SSU7eFyz54EzSYhVAPcENc.png?width=1600" 
+          src="/LRP_Cover.png" 
           alt="Lagos Revenue Portal Hero Mockup" 
           className="case-study-hero-img"
         />
