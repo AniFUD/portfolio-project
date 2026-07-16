@@ -7,8 +7,8 @@ export default function Work() {
       id: 'assets',
       title: 'The Buffalo Project',
       year: '2026',
-      category: 'ABC x Trustpointly — 2026',
-      description: "Custom enterprise platform for ABC x Trustpointly's business operations.",
+      category: 'Tax Administration — 2026',
+      description: "Custom enterprise platform for tax administration and revenue management.",
       image: '/buffalo_cover.webm',
       path: '/selected-work/assets'
     },
@@ -121,9 +121,9 @@ export default function Work() {
                   style={{ display: 'block', width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top' }}
                 />
               ) : (
-                <img 
-                  src={study.image} 
-                  alt={study.title} 
+                <img
+                  src={study.image}
+                  alt={study.title}
                   className="work-page-card-image"
                   loading="lazy"
                 />
