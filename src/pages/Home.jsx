@@ -186,11 +186,11 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Card 3: Lagos Revenue Portal */}
-          <Link to="/selected-work/lagos-revenue-portal" className="work-grid-card image-card">
+          {/* Card 3: Techpay */}
+          <Link to="/selected-work/techpay" className="work-grid-card image-card">
             <div className="card-img-container">
               <video
-                src="/LRP_Cover_Motion.webm"
+                src="/Techpay_Cover_II.webm"
                 className="card-img"
                 autoPlay
                 loop
@@ -200,8 +200,8 @@ export default function Home() {
               />
             </div>
             <div className="card-info">
-              <h3 className="card-title">Lagos Revenue Portal <span className="card-year">2024</span></h3>
-              <p className="card-desc">Designing a unified digital gateway for taxpayer education, tax calculations, and revenue system access in Lagos State.</p>
+              <h3 className="card-title">Techpay <span className="card-year">2025</span></h3>
+              <p className="card-desc">A modern digital payment platform simplifying transaction workflows and business payouts.</p>
             </div>
           </Link>
 
