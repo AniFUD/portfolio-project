@@ -10,6 +10,7 @@ import BuffaloCaseStudy from './pages/case-studies/BuffaloCaseStudy';
 import TechpayCaseStudy from './pages/case-studies/TechpayCaseStudy';
 import MyDesignPortfolio from './pages/case-studies/MyDesignPortfolio';
 import Moniehub from './pages/case-studies/Moniehub';
+import Funconnect from './pages/case-studies/Funconnect';
 
 
 let audioCtx = null;
@@ -180,6 +181,7 @@ export default function App() {
             <Route path="/selected-work/assets" element={<BuffaloCaseStudy />} />
             <Route path="/selected-work/techpay" element={<TechpayCaseStudy />} />
             <Route path="/selected-work/moniehub" element={<Moniehub />} />
+            <Route path="/selected-work/funconnect" element={<Funconnect />} />
             <Route path="/selected-work/my-design-portfolio" element={<MyDesignPortfolio />} />
           </Routes>
         </Layout>

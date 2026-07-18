@@ -49,6 +49,15 @@ export default function Work() {
       path: '/selected-work/moniehub'
     },
     {
+      id: 'funconnect',
+      title: 'Funconnect',
+      year: '2023',
+      category: 'Social Booking & Planning',
+      description: 'A mobile application helping users navigate recreation centers, explore social feeds, book events, and plan collaborative experiences.',
+      image: '/funconnect_cover_real.png',
+      path: '/selected-work/funconnect'
+    },
+    {
       id: 'my-design-portfolio',
       title: 'Design Portfolio',
       year: '2026',
